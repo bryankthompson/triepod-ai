@@ -59,7 +59,7 @@ cat ~/.ssh/triepod_deploy
 
 ## Next Steps
 
-1. Add GitHub secrets (SSH key, fileserver details)
+1. ✅ Add GitHub secrets (SSH key, fileserver details)
 2. Test deployment by pushing to main branch
 3. Verify site loads at https://triepod.ai
 4. Configure nginx proxy manager if needed
