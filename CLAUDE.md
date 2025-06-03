@@ -1,0 +1,5 @@
+- To deploy a website, use fileserver through nginx proxy manager
+  - Access via: `ssh bryan@fileserver`
+  - Verify nginx proxy manager running: `docker ps | grep proxy`
+    - Expected output shows nginx-proxy-manager running on various ports (30080, 30081, 30043)
+- bryan@fileserver:/var/www/triepod.ai is where the deploy installs the site
