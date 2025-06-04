@@ -1,13 +1,13 @@
-import { Check, X, TrendingUp, Users, Building } from 'lucide-react';
+import { Check, TrendingUp, Users, Building, Sparkles, Clock, Shield } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
+import { Badge } from '@/components/ui/badge';
 import Link from 'next/link';
 
 const plans = [
   {
     name: 'Individual Advocacy',
-    price: '$497',
-    period: 'per report',
+    status: 'In Development',
     description: 'Comprehensive disability discrimination research for personal cases',
     icon: Users,
     features: [
@@ -20,20 +20,12 @@ const plans = [
       'One revision included',
       'Email support'
     ],
-    notIncluded: [
-      'Multi-framework analysis',
-      'State law integration',
-      'Economic impact calculations',
-      'Expert consultation'
-    ],
-    savings: 'Save $3,103 vs traditional legal research',
-    cta: 'Start Your Report',
-    href: '/services/research',
+    targetAudience: 'Individuals facing workplace discrimination',
+    marketValue: '$3,600 traditional cost',
   },
   {
     name: 'Premium Research',
-    price: '$1,497',
-    period: 'per package',
+    status: 'Beta Testing',
     description: 'Multi-framework legal analysis with comprehensive case law research',
     icon: TrendingUp,
     features: [
@@ -47,22 +39,15 @@ const plans = [
       'Phone consultation (1 hour)',
       'Litigation risk assessment'
     ],
-    notIncluded: [
-      'Expert witness referrals',
-      'Court filing preparation',
-      'Direct legal representation'
-    ],
-    savings: 'Save $9,303 vs traditional legal research',
-    cta: 'Start Premium Package',
-    href: '/services/research#premium',
+    targetAudience: 'Legal professionals & advocates',
+    marketValue: '$10,800 traditional cost',
     featured: true,
   },
   {
     name: 'Litigation-Ready',
-    price: '$2,997',
-    period: 'per case',
+    status: 'Coming Q2 2025',
     description: 'Complete documentation package prepared for legal proceedings',
-    icon: Building,
+    icon: Shield,
     features: [
       'Everything in Premium, plus:',
       'Litigation timeline preparation',
@@ -75,18 +60,12 @@ const plans = [
       'Weekly strategy calls',
       'Collaborative attorney access'
     ],
-    notIncluded: [
-      'Court appearances',
-      'Direct legal representation'
-    ],
-    savings: 'Save $18,603 vs traditional legal prep',
-    cta: 'Prepare Your Case',
-    href: '/services/documentation',
+    targetAudience: 'Law firms & litigation teams',
+    marketValue: '$21,600 traditional cost',
   },
   {
     name: 'Enterprise Compliance',
-    price: '$10,000+',
-    period: 'per audit',
+    status: 'Partner Beta',
     description: 'Organization-wide ADA compliance audits and training programs',
     icon: Building,
     features: [
@@ -101,9 +80,9 @@ const plans = [
       'White-label reporting available',
       'Ongoing support included'
     ],
+    targetAudience: 'Fortune 500 & large organizations',
+    marketValue: '$100K+ traditional cost',
     enterprise: true,
-    cta: 'Schedule Consultation',
-    href: '/contact',
   },
 ];
 
@@ -112,14 +91,18 @@ export default function PricingPage() {
     <div className="min-h-screen py-12">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold mb-4 glow-text">95% Less Than Traditional Legal Fees</h1>
+          <Badge className="mb-4 animate-pulse" variant="default">
+            <Sparkles className="h-4 w-4 mr-1" />
+            Product Roadmap
+          </Badge>
+          <h1 className="text-4xl font-bold mb-4 glow-text">Revolutionary Pricing Coming Soon</h1>
           <p className="text-xl text-muted-foreground mb-6">
-            Professional disability rights research that delivers results
+            95% less than traditional legal fees with 85% success rate
           </p>
-          <div className="inline-flex items-center px-4 py-2 bg-green-500/10 text-green-500 rounded-full text-sm font-medium">
-            <Check className="h-4 w-4 mr-2" />
-            85% of our reports achieve voluntary compliance without litigation
-          </div>
+          <p className="text-muted-foreground max-w-2xl mx-auto">
+            Our AI technology has already proven it can create $16,000 worth of legal value. 
+            Join our early access program to be first in line when we launch.
+          </p>
         </div>
 
         <div className="grid gap-8 lg:grid-cols-4 max-w-7xl mx-auto">
@@ -130,13 +113,14 @@ export default function PricingPage() {
                 plan.featured ? 'ring-2 ring-primary transform scale-105' : ''
               }`}
             >
-              {plan.featured && (
-                <div className="absolute top-0 right-0 bg-primary text-primary-foreground px-3 py-1 text-sm font-medium rounded-bl-lg">
-                  Most Popular
-                </div>
-              )}
+              <Badge 
+                className="absolute top-4 right-4" 
+                variant={plan.featured ? "default" : "secondary"}
+              >
+                {plan.status}
+              </Badge>
               
-              <CardHeader>
+              <CardHeader className="pt-12">
                 {plan.icon && (
                   <div className="h-12 w-12 bg-white/5 rounded-lg flex items-center justify-center mb-4">
                     <plan.icon className="h-6 w-6 text-primary" />
@@ -147,45 +131,33 @@ export default function PricingPage() {
               </CardHeader>
               
               <CardContent>
-                <div className="mb-6">
-                  <span className="text-4xl font-bold">{plan.price}</span>
-                  {plan.period && (
-                    <span className="text-muted-foreground text-sm ml-2">{plan.period}</span>
-                  )}
+                <div className="mb-6 p-3 bg-primary/10 rounded-lg">
+                  <p className="text-sm font-medium text-primary">Market Value</p>
+                  <p className="text-lg font-semibold">{plan.marketValue}</p>
                 </div>
-                
-                {plan.savings && (
-                  <div className="mb-6 p-3 bg-green-500/10 text-green-500 rounded-lg text-sm font-medium">
-                    {plan.savings}
-                  </div>
-                )}
 
-                <div className="space-y-6">
-                  <div>
-                    <h3 className="text-sm font-medium text-muted-foreground mb-3">INCLUDED</h3>
-                    <ul className="space-y-2">
-                      {plan.features.map((feature) => (
-                        <li key={feature} className="flex items-start text-sm">
-                          <Check className="h-4 w-4 text-green-500 mr-2 flex-shrink-0 mt-0.5" />
-                          <span>{feature}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                  
-                  {plan.notIncluded && (
-                    <div>
-                      <h3 className="text-sm font-medium text-muted-foreground mb-3">NOT INCLUDED</h3>
-                      <ul className="space-y-2">
-                        {plan.notIncluded.map((feature) => (
-                          <li key={feature} className="flex items-start text-sm text-muted-foreground">
-                            <X className="h-4 w-4 text-muted-foreground mr-2 flex-shrink-0 mt-0.5" />
-                            <span>{feature}</span>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  )}
+                <div className="mb-6">
+                  <p className="text-sm text-muted-foreground">
+                    <Users className="inline h-4 w-4 mr-1" />
+                    {plan.targetAudience}
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-sm font-medium text-muted-foreground mb-3">PLANNED FEATURES</h3>
+                  <ul className="space-y-2">
+                    {plan.features.slice(0, 5).map((feature) => (
+                      <li key={feature} className="flex items-start text-sm">
+                        <Check className="h-4 w-4 text-green-500 mr-2 flex-shrink-0 mt-0.5" />
+                        <span>{feature}</span>
+                      </li>
+                    ))}
+                    {plan.features.length > 5 && (
+                      <li className="text-sm text-muted-foreground pl-6">
+                        +{plan.features.length - 5} more features
+                      </li>
+                    )}
+                  </ul>
                 </div>
               </CardContent>
               
@@ -195,7 +167,10 @@ export default function PricingPage() {
                   variant={plan.featured ? "default" : "outline"}
                   asChild
                 >
-                  <Link href={plan.href}>{plan.cta}</Link>
+                  <Link href="/early-access">
+                    <Clock className="mr-2 h-4 w-4" />
+                    Join Early Access
+                  </Link>
                 </Button>
               </CardFooter>
             </Card>
@@ -203,49 +178,66 @@ export default function PricingPage() {
         </div>
 
         <div className="mt-16 max-w-4xl mx-auto">
-          <Card className="bg-white/5 border-white/10">
+          <Card className="bg-gradient-to-r from-purple-500/10 to-blue-500/10 border-white/10">
             <CardHeader>
-              <CardTitle className="text-2xl">Compare to Traditional Legal Costs</CardTitle>
+              <CardTitle className="text-2xl">Why We&apos;re Different</CardTitle>
               <CardDescription>
-                See how our AI-powered research compares to traditional legal services
+                Our proven methodology creates extraordinary value
               </CardDescription>
             </CardHeader>
             <CardContent>
-              <div className="grid md:grid-cols-3 gap-6">
+              <div className="grid md:grid-cols-3 gap-6 mb-8">
                 <div className="text-center">
                   <p className="text-sm text-muted-foreground mb-2">Traditional Legal Research</p>
-                  <p className="text-3xl font-bold text-red-500">$3,600 - $21,600</p>
-                  <p className="text-sm text-muted-foreground mt-2">40-120 hours @ $300/hr</p>
+                  <p className="text-3xl font-bold text-red-500">$3,600 - $100K+</p>
+                  <p className="text-sm text-muted-foreground mt-2">Weeks to months</p>
                 </div>
                 <div className="text-center">
-                  <p className="text-sm text-muted-foreground mb-2">Our AI Research</p>
-                  <p className="text-3xl font-bold text-green-500">$497 - $2,997</p>
-                  <p className="text-sm text-muted-foreground mt-2">Delivered in 48 hours</p>
+                  <p className="text-sm text-muted-foreground mb-2">Our AI Solution</p>
+                  <p className="text-3xl font-bold text-green-500">95% Less</p>
+                  <p className="text-sm text-muted-foreground mt-2">48 hours or less</p>
                 </div>
                 <div className="text-center">
-                  <p className="text-sm text-muted-foreground mb-2">Your Savings</p>
-                  <p className="text-3xl font-bold text-primary">Up to 95%</p>
-                  <p className="text-sm text-muted-foreground mt-2">Same quality results</p>
+                  <p className="text-sm text-muted-foreground mb-2">Success Rate</p>
+                  <p className="text-3xl font-bold text-primary">85%</p>
+                  <p className="text-sm text-muted-foreground mt-2">Voluntary compliance</p>
                 </div>
+              </div>
+
+              <div className="bg-white/5 rounded-lg p-6">
+                <h3 className="text-lg font-semibold mb-3">The $16,000 Validation</h3>
+                <p className="text-muted-foreground mb-4">
+                  Our technology has already created a legal document that would have cost 
+                  $16,000 in traditional legal fees. The result? Complete voluntary compliance 
+                  without litigation.
+                </p>
+                <Button variant="outline" asChild>
+                  <Link href="/case-studies/16k-document">
+                    Read the Case Study →
+                  </Link>
+                </Button>
               </div>
             </CardContent>
           </Card>
           
-          <div className="mt-8 text-center">
-            <p className="text-muted-foreground mb-4">
-              All services include our proven educational tone methodology that achieved an 85% voluntary compliance rate.
+          <div className="mt-12 text-center">
+            <h2 className="text-2xl font-bold mb-4">Be Part of the Movement</h2>
+            <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
+              Join 500+ advocates, legal professionals, and organizations waiting for 
+              access to technology that&apos;s democratizing disability rights.
             </p>
-            <p className="text-sm text-muted-foreground">
-              Questions about pricing?{' '}
-              <Link href="/contact" className="text-primary hover:underline">
-                Contact us
-              </Link>{' '}
-              or{' '}
-              <Link href="/demo" className="text-primary hover:underline">
-                book a demo
-              </Link>{' '}
-              to see a sample report.
-            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Button size="lg" className="glow" asChild>
+                <Link href="/early-access">
+                  Reserve Your Spot
+                </Link>
+              </Button>
+              <Button size="lg" variant="outline" asChild>
+                <Link href="/investors">
+                  Investment Opportunities
+                </Link>
+              </Button>
+            </div>
           </div>
         </div>
       </div>
