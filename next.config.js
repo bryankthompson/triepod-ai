@@ -26,4 +26,4 @@ const nextConfig = {
 };
 
 module.exports = nextConfig;
-// Trigger Vercel rebuild
+// Force new Vercel deployment - updated Prisma build script
