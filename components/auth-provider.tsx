@@ -1,50 +1,46 @@
 'use client';
 
-import { createContext, useContext, useEffect, useState } from 'react';
-import { useRouter, usePathname } from 'next/navigation';
-import { authService, type AuthUser } from '@/lib/auth';
+import { createContext, useContext, useState } from 'react';
+import { useRouter } from 'next/navigation';
 
 interface AuthContextType {
-  user: AuthUser | null;
+  user: any | null;
   login: (email: string, password: string) => Promise<void>;
   logout: () => void;
   isLoading: boolean;
 }
 
-const AuthContext = createContext<AuthContextType | undefined>(undefined);
+const AuthContext = createContext<AuthContextType>({
+  user: null,
+  login: async () => {},
+  logout: () => {},
+  isLoading: false,
+});
 
 export function AuthProvider({ children }: { children: React.ReactNode }) {
-  const [user, setUser] = useState<AuthUser | null>(null);
-  const [isLoading, setIsLoading] = useState(true);
+  const [user, setUser] = useState(null);
+  const [isLoading, setIsLoading] = useState(false);
   const router = useRouter();
-  const pathname = usePathname();
-
-  useEffect(() => {
-    const currentUser = authService.getCurrentUser();
-    setUser(currentUser);
-    setIsLoading(false);
-  }, []);
-
-  useEffect(() => {
-    if (!isLoading && !user) {
-      const protectedPaths = ['/services', '/settings'];
-      if (protectedPaths.some(path => pathname?.startsWith(path))) {
-        router.push('/login');
-      }
-    }
-  }, [isLoading, user, pathname, router]);
 
   const login = async (email: string, password: string) => {
+    setIsLoading(true);
     try {
-      const user = await authService.login(email, password);
-      setUser(user);
+      // Demo authentication - simplified for now
+      if (email === 'demo@triepod.ai' && password === 'demo12345') {
+        const demoUser = { id: '1', email };
+        setUser(demoUser);
+        router.push('/');
+      } else {
+        throw new Error('Invalid credentials');
+      }
     } catch (error) {
       throw error;
+    } finally {
+      setIsLoading(false);
     }
   };
 
   const logout = () => {
-    authService.logout();
     setUser(null);
     router.push('/');
   };
@@ -58,7 +54,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
 export function useAuth() {
   const context = useContext(AuthContext);
-  if (context === undefined) {
+  if (!context) {
     throw new Error('useAuth must be used within an AuthProvider');
   }
   return context;
