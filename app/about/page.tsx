@@ -7,7 +7,7 @@ export default function AboutPage() {
         <section className="bg-card rounded-lg p-6 shadow-sm">
           <h2 className="text-2xl font-semibold mb-4">Our Mission</h2>
           <p className="text-muted-foreground mb-6">
-            At Triepod, we&apos;re on a mission to democratize AI technology and make advanced automation accessible to businesses of all sizes. Through our innovative RAG (Retrieval Augmented Generation) technology, we&apos;re transforming how organizations handle complex workflows and decision-making processes.
+            At Triepod, we&apos;re revolutionizing disability rights advocacy through AI technology. We believe everyone deserves equal access to workplace accommodations, and we&apos;re making it possible without expensive lawyers or lengthy litigation. Our AI-powered platform achieves an 85% success rate in accommodation requests, compared to the industry average of 39%.
           </p>
         </section>
 
@@ -15,10 +15,10 @@ export default function AboutPage() {
           <h2 className="text-2xl font-semibold mb-4">Our Story</h2>
           <div className="space-y-4">
             <p className="text-muted-foreground">
-              Founded by Bryan Thompson, a Senior Technical professional with extensive experience in enterprise systems and financial technology, Triepod emerged from a vision to make AI more practical and accessible.
+              Founded by Bryan Thompson, Triepod emerged from personal experience navigating the disability accommodation process. After witnessing firsthand how difficult and expensive it can be to secure workplace accommodations, Bryan set out to democratize access to disability rights.
             </p>
             <p className="text-muted-foreground">
-              After facing personal challenges during the COVID-19 pandemic, Bryan was inspired to create technology that could help businesses navigate their own challenges more effectively. Working with industry leading fortune 500 companies like Elior-North America, Fiserv, and Paypal, gave him a unique insight into the needs of modern businesses and led to the development of Triepod&apos;s unique approach to AI-powered automation.
+              What started as a personal challenge became a revolutionary solution. By combining AI technology with deep understanding of ADA law and employer psychology, we created a platform that generates comprehensive, legally-sound accommodation requests that actually work. Our first success story: a $16,000 document that achieved voluntary compliance where traditional methods had failed.
             </p>
           </div>
         </section>
@@ -27,14 +27,17 @@ export default function AboutPage() {
           <h2 className="text-2xl font-semibold mb-4">Our Technology</h2>
           <div className="space-y-4">
             <p className="text-muted-foreground">
-              Triepod&apos;s core technology combines advanced RAG capabilities with a modular architecture, allowing for:
+              Triepod&apos;s proprietary AI technology represents a breakthrough in disability advocacy:
             </p>
             <ul className="list-disc list-inside space-y-2 text-muted-foreground">
-              <li>Intelligent workflow detection and automation</li>
-              <li>Context-aware information retrieval</li>
-              <li>Seamless integration with existing systems</li>
-              <li>Customizable modules for specific business needs</li>
+              <li>Multi-framework analysis combining legal, medical, and psychological insights</li>
+              <li>Educational tone that achieves voluntary compliance without litigation</li>
+              <li>Comprehensive documentation that addresses employer concerns proactively</li>
+              <li>Evidence-based approach with quantifiable economic impact analysis</li>
             </ul>
+            <p className="text-muted-foreground mt-4">
+              Our methodology remains our competitive advantage - delivering results that traditional legal approaches can&apos;t match.
+            </p>
           </div>
         </section>
 
@@ -45,7 +48,7 @@ export default function AboutPage() {
               <h3 className="text-xl font-medium mb-2">Bryan Thompson</h3>
               <p className="text-sm text-muted-foreground mb-2">Founder & CEO</p>
               <p className="text-muted-foreground">
-                A veteran in enterprise systems and financial technology, Bryan brings over a decade of experience in developing innovative solutions for businesses. His expertise spans cloud integration, workflow automation, and AI implementation.
+                A veteran in enterprise systems and financial technology with experience at Fortune 500 companies, Bryan brings unique insights into both technology and workplace dynamics. His personal journey through the disability accommodation process inspired the creation of Triepod&apos;s revolutionary approach to disability rights advocacy.
               </p>
             </div>
           </div>
@@ -55,40 +58,45 @@ export default function AboutPage() {
           <h2 className="text-2xl font-semibold mb-4">Our Values</h2>
           <div className="grid gap-6 md:grid-cols-2">
             <div>
-              <h3 className="text-lg font-medium mb-2">Innovation</h3>
-              <p className="text-muted-foreground">
-                We constantly push the boundaries of what&apos;s possible with AI technology.
-              </p>
-            </div>
-            <div>
               <h3 className="text-lg font-medium mb-2">Accessibility</h3>
               <p className="text-muted-foreground">
-                We believe powerful technology should be accessible to everyone.
+                Disability rights shouldn&apos;t require a $50,000 legal retainer. We make advocacy accessible to everyone.
               </p>
             </div>
             <div>
-              <h3 className="text-lg font-medium mb-2">Transparency</h3>
+              <h3 className="text-lg font-medium mb-2">Empowerment</h3>
               <p className="text-muted-foreground">
-                We maintain open communication and clear documentation of our technology.
+                We empower individuals to advocate for themselves with professional-grade documentation.
               </p>
             </div>
             <div>
-              <h3 className="text-lg font-medium mb-2">Security</h3>
+              <h3 className="text-lg font-medium mb-2">Innovation</h3>
               <p className="text-muted-foreground">
-                We prioritize the security and privacy of our users&apos; data.
+                We use cutting-edge AI to solve real-world civil rights challenges.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-lg font-medium mb-2">Results</h3>
+              <p className="text-muted-foreground">
+                Our 85% success rate speaks for itself - we deliver outcomes, not just documents.
               </p>
             </div>
           </div>
         </section>
 
         <section className="bg-card rounded-lg p-6 shadow-sm">
-          <h2 className="text-2xl font-semibold mb-4">Join Our Team</h2>
+          <h2 className="text-2xl font-semibold mb-4">Join Our Mission</h2>
           <p className="text-muted-foreground mb-4">
-            We&apos;re always looking for talented individuals who share our passion for innovation and technology.
+            Whether you&apos;re an investor, partner, or someone who needs our help, we&apos;re building a movement to transform disability rights advocacy.
           </p>
-          <a href="/careers" className="text-primary hover:underline">
-            View Open Positions →
-          </a>
+          <div className="flex gap-4">
+            <a href="/early-access" className="text-primary hover:underline">
+              Join the Waitlist →
+            </a>
+            <a href="/investors" className="text-primary hover:underline">
+              Investor Information →
+            </a>
+          </div>
         </section>
       </div>
     </div>

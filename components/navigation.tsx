@@ -19,8 +19,9 @@ import {
 import { Sidebar } from '@/components/sidebar';
 
 const services = [
-  { name: 'Logo Generator', href: '/services/logo-generator', description: 'Create unique, AI-powered logos for your brand' },
-  { name: 'Coming Soon', href: '#', description: 'More AI services coming soon' },
+  { name: 'ADA Document Builder', href: '/early-access', description: 'AI-powered ADA accommodation request generator' },
+  { name: 'Success Stories', href: '/case-studies/16k-document', description: 'Real results from our disability rights AI' },
+  { name: 'For Investors', href: '/investors', description: 'Join us in democratizing disability rights' },
 ];
 
 const resources = [
@@ -138,6 +139,7 @@ export function Navigation() {
                     <Link href="/login">Sign in</Link>
                   </Button>
                 )}
+                {/* TODO: Twitter handle @triepod_ai doesn't exist or is private - needs to be created or removed */}
                 <Button variant="ghost" size="icon">
                   <Link href="https://twitter.com/triepod_ai" target="_blank">
                     <Twitter className="h-5 w-5" />

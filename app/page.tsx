@@ -253,7 +253,7 @@ export default function Home() {
             </Link>
 
             <Link 
-              href="/blog/85-percent-success-method"
+              href="/case-studies/16k-document"
               className="hover-card rounded-xl p-6 bg-white/5"
             >
               <div className="mb-4">
@@ -270,7 +270,7 @@ export default function Home() {
             </Link>
 
             <Link 
-              href="/resources/ada-compliance"
+              href="/early-access"
               className="hover-card rounded-xl p-6 bg-white/5"
             >
               <div className="mb-4">

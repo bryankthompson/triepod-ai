@@ -9,7 +9,7 @@ export function Footer() {
           <div className="space-y-4">
             <h3 className="text-lg font-semibold">Triepod</h3>
             <p className="text-sm text-muted-foreground">
-              Advanced AI solutions for modern businesses
+              AI-powered disability rights advocacy - 85% success rate
             </p>
             <div className="flex space-x-4">
               <Link href="https://twitter.com/triepod_ai" target="_blank">

@@ -7,7 +7,7 @@ export default function ContactPage() {
         <section className="bg-card rounded-lg p-6 shadow-sm">
           <h2 className="text-2xl font-semibold mb-4">Get in Touch</h2>
           <p className="text-muted-foreground mb-6">
-            Have questions about Triepod.ai? We&apos;d love to hear from you.
+            Questions about our disability rights AI platform? Need help with accommodation requests? We&apos;re here to help you achieve equal access in the workplace.
           </p>
           <div className="grid gap-6 md:grid-cols-2">
             <div>
@@ -17,7 +17,7 @@ export default function ContactPage() {
               </p>
             </div>
             <div>
-              <h3 className="text-lg font-medium mb-2">Technical Support</h3>
+              <h3 className="text-lg font-medium mb-2">Accommodation Support</h3>
               <p className="text-muted-foreground">
                 Email: <a href="mailto:support@triepod.ai" className="text-primary hover:underline">support@triepod.ai</a>
               </p>
@@ -36,13 +36,15 @@ export default function ContactPage() {
         </section>
 
         <section className="bg-card rounded-lg p-6 shadow-sm">
-          <h2 className="text-2xl font-semibold mb-4">Business Hours</h2>
+          <h2 className="text-2xl font-semibold mb-4">Response Times</h2>
           <p className="text-muted-foreground mb-4">
-            Our team is available during the following hours:
+            We understand that disability accommodation requests are time-sensitive. Our team prioritizes urgent requests:
           </p>
-          <p className="text-muted-foreground">
-            Monday - Friday: 9:00 AM - 6:00 PM EST
-          </p>
+          <ul className="space-y-2 text-muted-foreground">
+            <li>• Urgent accommodation requests: Within 24 hours</li>
+            <li>• General inquiries: 1-2 business days</li>
+            <li>• Partnership opportunities: 3-5 business days</li>
+          </ul>
         </section>
 
         <section className="bg-card rounded-lg p-6 shadow-sm">
@@ -58,12 +60,22 @@ export default function ContactPage() {
         </section>
 
         <section className="bg-card rounded-lg p-6 shadow-sm">
-          <h2 className="text-2xl font-semibold mb-4">Enterprise Solutions</h2>
+          <h2 className="text-2xl font-semibold mb-4">Partnership Opportunities</h2>
           <p className="text-muted-foreground mb-4">
-            Looking for enterprise-grade solutions? Our team is ready to help you scale.
+            Are you a disability rights organization, law firm, or healthcare provider? Let&apos;s work together to expand access to workplace accommodations.
           </p>
           <p className="text-muted-foreground">
-            Contact our enterprise team: <a href="mailto:enterprise@triepod.ai" className="text-primary hover:underline">enterprise@triepod.ai</a>
+            Partnership inquiries: <a href="mailto:partners@triepod.ai" className="text-primary hover:underline">partners@triepod.ai</a>
+          </p>
+        </section>
+
+        <section className="bg-card rounded-lg p-6 shadow-sm">
+          <h2 className="text-2xl font-semibold mb-4">Investor Relations</h2>
+          <p className="text-muted-foreground mb-4">
+            Interested in our mission to democratize disability rights? We&apos;re raising capital to scale our impact.
+          </p>
+          <p className="text-muted-foreground">
+            Investor inquiries: <a href="mailto:investors@triepod.ai" className="text-primary hover:underline">investors@triepod.ai</a>
           </p>
         </section>
       </div>
