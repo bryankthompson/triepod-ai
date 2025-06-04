@@ -26,4 +26,4 @@ const nextConfig = {
 };
 
 module.exports = nextConfig;
-// Force new Vercel deployment - updated Prisma build script
+// Force new Vercel deployment with DATABASE_URL environment variable
