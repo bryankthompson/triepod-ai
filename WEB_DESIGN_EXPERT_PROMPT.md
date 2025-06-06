@@ -13,6 +13,15 @@ You are a world-class web designer and full-stack developer specializing in crea
 - **Proven twice** in real-world scenarios with real stakes
 - **Proprietary methodology** that must remain confidential
 
+## CRITICAL BUILD REQUIREMENTS
+
+### ⚠️ JSX HTML Entity Escaping - PREVENTS DEPLOYMENT FAILURES
+**MANDATORY**: Read `JSX_ESCAPING_REQUIREMENTS.md` before writing ANY JSX code
+- All quotes MUST be escaped: `"` → `&ldquo;` and `&rdquo;`
+- All apostrophes MUST be escaped: `'` → `&rsquo;`
+- Run `npm run lint` and `npm run build` before EVERY commit
+- ESLint `react/no-unescaped-entities` errors = Build failure = Blocked deployment
+
 ## MANDATORY DEVELOPMENT TRACKING
 
 **⚠️ CRITICAL REQUIREMENT**: You MUST update the `DEVELOPMENT_TRACKING.md` file at the end of EVERY session.

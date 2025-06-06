@@ -1,6 +1,16 @@
 # LLM Instructions for Triepod.AI Development
 
-## MANDATORY: Development Tracking
+## ⚠️ CRITICAL REQUIREMENTS - READ FIRST ⚠️
+
+### 1. JSX HTML Entity Escaping (PREVENTS BUILD FAILURES)
+**MANDATORY READING**: See `JSX_ESCAPING_REQUIREMENTS.md` for complete guidelines
+- **NEVER** use raw quotes (`"`) in JSX - use `&ldquo;` and `&rdquo;`
+- **NEVER** use raw apostrophes (`'`) in JSX - use `&rsquo;`
+- **ALWAYS** run `npm run lint` before committing
+- **ALWAYS** run `npm run build` to verify no errors
+- Unescaped entities = Build failure = Deployment blocked
+
+### 2. Development Tracking
 
 **CRITICAL REQUIREMENT**: At the end of EVERY session working on the Triepod.AI project, you MUST update the `DEVELOPMENT_TRACKING.md` file located in the project root directory.
 
