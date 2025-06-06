@@ -13,8 +13,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Triepod - Advanced AI Solutions',
-  description: 'Cutting-edge AI technology for modern businesses',
+  title: 'Bryan Thompson - AI Innovation Portfolio | Triepod.AI',
+  description: 'AI researcher and developer creating innovative solutions that democratize access to powerful technology. Explore projects in legal AI, data analysis, and more.',
 };
 
 export default function RootLayout({

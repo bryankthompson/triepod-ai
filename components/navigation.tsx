@@ -19,8 +19,8 @@ import {
 import { Sidebar } from '@/components/sidebar';
 
 const services = [
-  { name: 'ADA Document Builder', href: '/early-access', description: 'AI-powered ADA accommodation request generator' },
-  { name: 'Success Stories', href: '/case-studies/16k-document', description: 'Real results from our disability rights AI' },
+  { name: 'AI Document Builder', href: '/early-access', description: 'AI-powered document generation and research' },
+  { name: 'Success Stories', href: '/case-studies/16k-document', description: 'Real results from our AI solutions' },
   { name: 'For Investors', href: '/investors', description: 'Join us in democratizing disability rights' },
 ];
 
@@ -57,6 +57,16 @@ export function Navigation() {
             </div>
 
             <div className="hidden md:flex md:items-center md:space-x-6">
+              <Link
+                href="/projects"
+                className={cn(
+                  "text-sm font-medium transition-colors hover:text-primary",
+                  pathname === '/projects' ? 'text-primary' : 'text-muted-foreground'
+                )}
+              >
+                Projects
+              </Link>
+              
               <NavigationMenu>
                 <NavigationMenuList>
                   <NavigationMenuItem>
@@ -173,6 +183,18 @@ export function Navigation() {
         {isOpen && (
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1">
+              <Link
+                href="/projects"
+                className={cn(
+                  'block px-3 py-2 rounded-md text-base font-medium',
+                  pathname === '/projects'
+                    ? 'text-foreground bg-primary/10'
+                    : 'text-muted-foreground hover:text-foreground hover:bg-primary/5'
+                )}
+                onClick={() => setIsOpen(false)}
+              >
+                Projects
+              </Link>
               {[...services, ...resources, ...company].map((item) => (
                 <Link
                   key={item.name}

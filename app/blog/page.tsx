@@ -6,6 +6,22 @@ export default function BlogPage() {
       <h1 className="text-4xl font-bold mb-8">Blog</h1>
       <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
         <article className="group relative bg-card rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+          <Link href="/blog/building-mcp-server-directories">
+            <div className="p-6">
+              <h2 className="text-2xl font-semibold mb-3 group-hover:text-primary transition-colors">
+                Building ToolNexusMCP: A Directory for Model Context Protocol Servers
+              </h2>
+              <p className="text-muted-foreground mb-4">
+                Technical insights from building a React-based directory serving 272 MCP servers to the AI development community.
+              </p>
+              <div className="text-sm text-muted-foreground">
+                June 6, 2025 • 5 min read
+              </div>
+            </div>
+          </Link>
+        </article>
+
+        <article className="group relative bg-card rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
           <Link href="/blog/rise-of-triepod-ai">
             <div className="p-6">
               <h2 className="text-2xl font-semibold mb-3 group-hover:text-primary transition-colors">
