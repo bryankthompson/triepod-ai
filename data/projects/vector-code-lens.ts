@@ -12,7 +12,7 @@ The platform implements a progressive enhancement strategy, gracefully degrading
 
 Key innovations include intelligent code chunking with structural awareness, semantic search powered by vector similarity, and natural language querying capabilities that allow developers to ask questions about their codebase in plain English. The system automatically discovers patterns, relationships, and architectural insights that would be difficult to identify manually.`,
   category: 'ai-research',
-  status: 'launched',
+  status: 'development',
   featured: true,
   
   technologies: [

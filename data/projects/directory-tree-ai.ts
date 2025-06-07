@@ -13,7 +13,7 @@ export const directoryTreeAI: Project = {
   refactoring.`,
   
   category: 'data-analysis',
-  status: 'planning',
+  status: 'development',
   featured: true,
   order: 2,
   

@@ -8,7 +8,7 @@ export const triepodKnowledgeBase: Project = {
   description: 'A sophisticated knowledge management platform built with React and Node.js that combines PostgreSQL and Pinecone vector databases for advanced document processing and retrieval.',
   longDescription: 'The system features semantic search capabilities, Hugging Face model integration, and comprehensive document analysis with chunking, embedding generation, and intelligent tagging. Designed for enterprise environments requiring efficient knowledge discovery and AI-powered document insights.',
   category: 'ai-research',
-  status: 'launched',
+  status: 'development',
   featured: true,
   order: 1,
   

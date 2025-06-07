@@ -7,7 +7,7 @@ export const mergerBalanceAutomation: Project = {
   tagline: 'AI-powered financial data reconciliation system for bank mergers with >90% accuracy using vector embeddings',
   description: 'A comprehensive solution for automating the integration of CSV data into Excel balance sheets for financial mergers. This tool addresses complex data matching challenges using three progressively sophisticated approaches: standard exact matching, enhanced logging with fuzzy matching, and vector-based semantic matching using AI embeddings. The vector-based version achieves over 90% fill rate compared to 37.5% with traditional exact matching, making it ideal for handling inconsistent naming conventions and missing data in financial mergers.',
   category: 'automation',
-  status: 'launched',
+  status: 'development',
   featured: true,
   
   technologies: [

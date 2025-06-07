@@ -11,7 +11,7 @@ Built with security and uniqueness in mind, the system uses SHA256 hashing to en
 
 The project features comprehensive logging, cross-platform compatibility with ANSI color support, and a robust encoding system that prevents conflicts while maintaining readability. It's particularly useful for developers, security researchers, and anyone needing memorable email addresses with a distinctive cyberpunk aesthetic.`,
   category: 'experimental',
-  status: 'launched',
+  status: 'development',
   featured: false,
   
   technologies: [

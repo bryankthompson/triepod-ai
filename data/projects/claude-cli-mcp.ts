@@ -8,7 +8,7 @@ export const claudeCliMcp: Project = {
   description: 'A minimal yet powerful Model Context Protocol (MCP) server that bridges Claude Code CLI functionality with programmatic access.',
   longDescription: 'This server enables seamless integration of Claude\'s capabilities into any MCP-compatible application through standardized tools and JSON APIs. Built with FastMCP and Python, it provides secure subprocess execution, session continuity, file processing capabilities, and comprehensive input validation. The server supports both one-shot queries and persistent conversations, making it ideal for building AI-powered applications that need reliable access to Claude\'s reasoning capabilities. Perfect for developers who want to integrate Claude Code into their existing workflows, automation systems, or custom applications without direct CLI dependency management.',
   category: 'developer-tools',
-  status: 'launched',
+  status: 'development',
   featured: false,
   
   technologies: [

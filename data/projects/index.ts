@@ -8,13 +8,17 @@ import { vectorCodeLens } from './vector-code-lens';
 import { mergerBalanceAutomation } from './merger-balance-automation';
 import { triepodEncoderRing } from './triepod-encoder-ring';
 import { cyberpunkChat } from './cyberpunk-chat';
+import { stellarTrielink } from './stellar-trielink';
+import { ollamaMcpWrapper } from './ollama-mcp-wrapper';
 
 // Export individual projects
-export { disabilityRightsAI, directoryTreeAI, aiResearchEngine, triepodKnowledgeBase, claudeCliMcp, vectorCodeLens, mergerBalanceAutomation, triepodEncoderRing, cyberpunkChat };
+export { disabilityRightsAI, directoryTreeAI, aiResearchEngine, triepodKnowledgeBase, claudeCliMcp, vectorCodeLens, mergerBalanceAutomation, triepodEncoderRing, cyberpunkChat, stellarTrielink, ollamaMcpWrapper };
 
 // Export all projects as an array
 export const allProjects: Project[] = [
   // Featured Professional Projects
+  stellarTrielink,
+  ollamaMcpWrapper,
   mergerBalanceAutomation,
   vectorCodeLens,
   triepodKnowledgeBase,
