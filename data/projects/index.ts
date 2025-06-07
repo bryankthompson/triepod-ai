@@ -2,15 +2,19 @@ import { Project, ProjectsPageData } from '@/types/project';
 import { disabilityRightsAI } from './disability-rights-ai';
 import { directoryTreeAI } from './directory-tree-ai';
 import { aiResearchEngine } from './ai-research-engine';
+import { triepodKnowledgeBase } from './triepod-knowledge-base';
+import { claudeCliMcp } from './claude-cli-mcp';
 
 // Export individual projects
-export { disabilityRightsAI, directoryTreeAI, aiResearchEngine };
+export { disabilityRightsAI, directoryTreeAI, aiResearchEngine, triepodKnowledgeBase, claudeCliMcp };
 
 // Export all projects as an array
 export const allProjects: Project[] = [
+  triepodKnowledgeBase,
   disabilityRightsAI,
   directoryTreeAI,
   aiResearchEngine,
+  claudeCliMcp,
 ];
 
 // Get featured projects
@@ -58,6 +62,16 @@ export const projectsPageData: ProjectsPageData = {
       value: 'automation',
       label: 'Automation',
       description: 'Workflow and process automation tools'
+    },
+    {
+      value: 'enterprise',
+      label: 'Enterprise',
+      description: 'Enterprise-grade AI solutions and platforms'
+    },
+    {
+      value: 'developer-tools',
+      label: 'Developer Tools',
+      description: 'Development utilities and integration tools'
     }
   ]
 };
