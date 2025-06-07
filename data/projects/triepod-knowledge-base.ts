@@ -59,33 +59,34 @@ export const triepodKnowledgeBase: Project = {
     }
   ],
   
-  metrics: {
-    performance: '95% search accuracy',
-    costReduction: '60% token optimization',
-    timeToValue: '2 hours setup',
-    usageStats: 'Enterprise ready',
-    successRate: '99.9% uptime',
-    accuracy: 'Multi-language support'
-  },
+  metrics: [
+    {
+      label: 'Search Accuracy',
+      value: '95%',
+      description: 'Semantic search precision rate'
+    },
+    {
+      label: 'Token Optimization',
+      value: '60%',
+      description: 'Cost reduction through optimization'
+    },
+    {
+      label: 'Setup Time',
+      value: '2 hours',
+      description: 'Time to deployment and value'
+    },
+    {
+      label: 'System Uptime',
+      value: '99.9%',
+      description: 'Enterprise-grade reliability'
+    }
+  ],
   
-  links: {
-    github: 'https://github.com/bryan308/triepod-knowledge-base',
-    documentation: '/projects/triepod-knowledge-base/docs',
-    demo: 'https://knowledge.triepod.ai'
-  },
+  githubUrl: 'https://github.com/bryan308/triepod-knowledge-base',
+  documentationUrl: '/projects/triepod-knowledge-base/docs',
+  demoUrl: 'https://knowledge.triepod.ai',
   
-  images: {
-    thumbnail: '/images/projects/triepod-knowledge-base/thumbnail.png',
-    screenshots: [
-      '/images/projects/triepod-knowledge-base/dashboard.png',
-      '/images/projects/triepod-knowledge-base/vector-processing.png',
-      '/images/projects/triepod-knowledge-base/search-interface.png'
-    ]
-  },
-  
-  seo: {
-    title: 'Triepod.ai Knowledge Base Platform - Enterprise RAG System by Bryan Thompson',
-    description: 'Advanced knowledge management platform with vector database integration, semantic search, and AI-powered document processing for enterprise environments.',
-    keywords: ['AI', 'RAG', 'vector database', 'semantic search', 'knowledge management', 'enterprise', 'document processing', 'OpenAI', 'Pinecone']
-  }
+  seoTitle: 'Triepod.ai Knowledge Base Platform - Enterprise RAG System by Bryan Thompson',
+  seoDescription: 'Advanced knowledge management platform with vector database integration, semantic search, and AI-powered document processing for enterprise environments.',
+  keywords: ['AI', 'RAG', 'vector database', 'semantic search', 'knowledge management', 'enterprise', 'document processing', 'OpenAI', 'Pinecone']
 }

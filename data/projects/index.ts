@@ -4,17 +4,25 @@ import { directoryTreeAI } from './directory-tree-ai';
 import { aiResearchEngine } from './ai-research-engine';
 import { triepodKnowledgeBase } from './triepod-knowledge-base';
 import { claudeCliMcp } from './claude-cli-mcp';
+import { vectorCodeLens } from './vector-code-lens';
+import { mergerBalanceAutomation } from './merger-balance-automation';
+import { triepodEncoderRing } from './triepod-encoder-ring';
+import { cyberpunkChat } from './cyberpunk-chat';
 
 // Export individual projects
-export { disabilityRightsAI, directoryTreeAI, aiResearchEngine, triepodKnowledgeBase, claudeCliMcp };
+export { disabilityRightsAI, directoryTreeAI, aiResearchEngine, triepodKnowledgeBase, claudeCliMcp, vectorCodeLens, mergerBalanceAutomation, triepodEncoderRing, cyberpunkChat };
 
 // Export all projects as an array
 export const allProjects: Project[] = [
+  mergerBalanceAutomation,
+  vectorCodeLens,
   triepodKnowledgeBase,
   disabilityRightsAI,
   directoryTreeAI,
   aiResearchEngine,
   claudeCliMcp,
+  triepodEncoderRing,
+  cyberpunkChat,
 ];
 
 // Get featured projects

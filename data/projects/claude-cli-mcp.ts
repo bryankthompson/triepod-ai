@@ -54,29 +54,33 @@ export const claudeCliMcp: Project = {
     }
   ],
   
-  metrics: {
-    responseTime: '< 2s average',
-    reliability: '99.9% uptime',
-    inputValidation: '100% secure',
-    apiCompliance: 'MCP 2024-11-05'
-  },
+  metrics: [
+    {
+      label: 'Response Time',
+      value: '< 2s',
+      description: 'Average API response time'
+    },
+    {
+      label: 'Reliability',
+      value: '99.9%',
+      description: 'System uptime'
+    },
+    {
+      label: 'Security',
+      value: '100%',
+      description: 'Input validation coverage'
+    },
+    {
+      label: 'Protocol',
+      value: 'MCP 2024-11-05',
+      description: 'Latest protocol compliance'
+    }
+  ],
   
-  links: {
-    github: 'https://github.com/bryan-triepod/claude-cli-mcp',
-    documentation: '/projects/claude-cli-mcp/docs'
-  },
+  githubUrl: 'https://github.com/bryan-triepod/claude-cli-mcp',
+  documentationUrl: '/projects/claude-cli-mcp/docs',
   
-  images: {
-    thumbnail: '/images/projects/claude-cli-mcp/thumbnail.png',
-    screenshots: [
-      '/images/projects/claude-cli-mcp/api-response.png',
-      '/images/projects/claude-cli-mcp/session-flow.png'
-    ]
-  },
-  
-  seo: {
-    title: 'Claude CLI MCP Server - AI Integration Tool by Bryan Thompson',
-    description: 'MCP server for Claude Code CLI integration. Secure, fast, and production-ready with session continuity and file processing.',
-    keywords: ['MCP', 'Claude CLI', 'AI integration', 'developer tools', 'API server', 'Python', 'automation']
-  }
+  seoTitle: 'Claude CLI MCP Server - AI Integration Tool by Bryan Thompson',
+  seoDescription: 'MCP server for Claude Code CLI integration. Secure, fast, and production-ready with session continuity and file processing.',
+  keywords: ['MCP', 'Claude CLI', 'AI integration', 'developer tools', 'API server', 'Python', 'automation']
 }
