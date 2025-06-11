@@ -53,7 +53,7 @@ export const docucrewAiDocumentationGenerator: Project = {
     { label: 'Performance', value: 'Real-time generation' }
   ],
   
-  githubUrl: 'https://github.com/triepod/docucrew-ai-documentation-generator',
+  githubUrl: 'https://github.com/triepod-ai/docucrew-ai-documentation-generator',
   documentationUrl: '/projects/docucrew-ai-documentation-generator/docs',
   
   thumbnail: '/images/projects/docucrew-ai-documentation-generator/thumbnail.png',
