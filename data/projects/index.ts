@@ -10,13 +10,15 @@ import { triepodEncoderRing } from './triepod-encoder-ring';
 import { cyberpunkChat } from './cyberpunk-chat';
 import { stellarTrielink } from './stellar-trielink';
 import { ollamaMcpWrapper } from './ollama-mcp-wrapper';
+import { memorySystemMcp } from './memory-system-mcp';
 
 // Export individual projects
-export { disabilityRightsAI, directoryTreeAI, aiResearchEngine, triepodKnowledgeBase, claudeCliMcp, vectorCodeLens, mergerBalanceAutomation, triepodEncoderRing, cyberpunkChat, stellarTrielink, ollamaMcpWrapper };
+export { disabilityRightsAI, directoryTreeAI, aiResearchEngine, triepodKnowledgeBase, claudeCliMcp, vectorCodeLens, mergerBalanceAutomation, triepodEncoderRing, cyberpunkChat, stellarTrielink, ollamaMcpWrapper, memorySystemMcp };
 
 // Export all projects as an array
 export const allProjects: Project[] = [
   // Featured Professional Projects
+  memorySystemMcp,
   stellarTrielink,
   ollamaMcpWrapper,
   mergerBalanceAutomation,
