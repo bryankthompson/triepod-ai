@@ -35,8 +35,8 @@ export default function SmartMatchResumeAdvisorDocumentation() {
             <div>
               <h3 className="font-semibold mb-2">1. Clone and Setup</h3>
               <pre className="bg-gray-800 text-white p-3 rounded text-sm overflow-x-auto">
-{`git clone https://github.com/BryanNsoh/ai-resume-analyzer-with-langchain
-cd ai-resume-analyzer-with-langchain
+{`git clone https://github.com/triepod-ai/smartmatch-resume-advisor
+cd smartmatch-resume-advisor
 chmod +x scripts/setup.sh
 ./scripts/setup.sh`}
               </pre>
@@ -365,8 +365,8 @@ npm run lint    # ESLint check`}
           <h2 className="text-2xl font-bold mb-6">Support &amp; Resources</h2>
           <div className="bg-gray-50 rounded-lg p-6">
             <ul className="space-y-2">
-              <li>• <Link href="https://github.com/BryanNsoh/ai-resume-analyzer-with-langchain" className="text-blue-600 hover:underline">GitHub Repository</Link></li>
-              <li>• <Link href="https://github.com/BryanNsoh/ai-resume-analyzer-with-langchain/issues" className="text-blue-600 hover:underline">Issue Tracker</Link></li>
+              <li>• <Link href="https://github.com/triepod-ai/smartmatch-resume-advisor" className="text-blue-600 hover:underline">GitHub Repository</Link></li>
+              <li>• <Link href="https://github.com/triepod-ai/smartmatch-resume-advisor/issues" className="text-blue-600 hover:underline">Issue Tracker</Link></li>
               <li>• <Link href="/projects/smartmatch-resume-advisor" className="text-blue-600 hover:underline">Project Overview</Link></li>
               <li>• <Link href="https://docs.langchain.com/" className="text-blue-600 hover:underline">LangChain Documentation</Link></li>
               <li>• <Link href="https://platform.openai.com/docs" className="text-blue-600 hover:underline">OpenAI API Documentation</Link></li>

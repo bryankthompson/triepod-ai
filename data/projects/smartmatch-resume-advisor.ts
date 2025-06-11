@@ -60,7 +60,7 @@ export const smartmatchResumeAdvisor: Project = {
     { label: 'Efficiency', value: '90% faster than manual review' }
   ],
   
-  githubUrl: 'https://github.com/BryanNsoh/ai-resume-analyzer-with-langchain',
+  githubUrl: 'https://github.com/triepod-ai/smartmatch-resume-advisor',
   documentationUrl: '/projects/smartmatch-resume-advisor/docs',
   demoUrl: 'https://smartmatch-resume-advisor.vercel.app',
   
