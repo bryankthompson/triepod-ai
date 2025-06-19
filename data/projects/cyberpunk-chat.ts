@@ -74,7 +74,7 @@ export const cyberpunkChat: Project = {
     }
   ],
   
-  githubUrl: 'https://github.com/triepod-ai/cyberpunk-chat',
+  // githubUrl: 'https://github.com/triepod-ai/cyberpunk-chat', // TODO: Fix dead link
   documentationUrl: '/projects/cyberpunk-chat/docs',
   
   seoTitle: 'Cyberpunk Chat - Max Headroom Terminal Interface | Bryan Thompson',

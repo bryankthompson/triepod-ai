@@ -7,7 +7,7 @@ export const smartmatchResumeAdvisor: Project = {
   tagline: 'AI-powered resume analyzer providing intelligent feedback on job alignment using LangChain and OpenAI',
   description: 'SmartMatch Resume Advisor is an advanced AI system that analyzes resume-job description alignment using cutting-edge natural language processing. Built with LangChain and OpenAI&apos;s GPT models, it provides percentage-based match scoring, identifies missing keywords, and generates actionable improvement suggestions. The system uses FAISS vector embeddings for semantic similarity matching, going beyond simple keyword detection to understand contextual relevance. With a modern Next.js frontend and FastAPI backend, it delivers professional-grade analysis in under 5 seconds.',
   category: 'developer-tools',
-  status: 'launched',
+  status: 'development',
   featured: true,
   
   technologies: [
@@ -62,7 +62,7 @@ export const smartmatchResumeAdvisor: Project = {
   
   githubUrl: 'https://github.com/triepod-ai/smartmatch-resume-advisor',
   documentationUrl: '/projects/smartmatch-resume-advisor/docs',
-  demoUrl: 'https://smartmatch-resume-advisor.vercel.app',
+  // demoUrl: 'https://smartmatch-resume-advisor.vercel.app', // TODO: Fix dead demo URL
   
   thumbnail: '/images/projects/smartmatch-resume-advisor/thumbnail.png',
   screenshots: [

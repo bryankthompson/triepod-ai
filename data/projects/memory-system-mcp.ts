@@ -10,7 +10,7 @@ export const memorySystemMcp: Project = {
 
 Built for enterprise-grade reliability with automatic fallback mechanisms, the system handles complex relationship queries while maintaining optimal performance through bounded search algorithms and context-aware result limiting. Supports real-time knowledge graph operations with full CRUD capabilities and advanced search functionality.`,
   category: 'ai-research',
-  status: 'launched',
+  status: 'development',
   featured: true,
   
   technologies: [

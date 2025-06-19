@@ -4,30 +4,31 @@ export const appwriteAiAssistant: Project = {
   id: 'appwrite-ai-assistant',
   slug: 'appwrite-ai-assistant',
   title: 'Appwrite AI Assistant Demo',
-  shortDescription: 'Production-ready AI-powered developer assistant with multi-modal capabilities and enterprise deployment',
-  fullDescription: `A comprehensive AI-powered developer assistant platform built specifically for Appwrite, demonstrating enterprise-grade AI/ML engineering capabilities. This production-ready demo showcases the complete integration of cutting-edge technologies including open-source LLMs, vector databases, real-time anomaly detection, and Kubernetes deployment infrastructure.
+  tagline: 'Production-ready AI-powered developer assistant with multi-modal capabilities and enterprise deployment',
+  description: 'A comprehensive AI-powered developer assistant platform built specifically for Appwrite, demonstrating enterprise-grade AI/ML engineering capabilities.',
+  longDescription: `A comprehensive AI-powered developer assistant platform built specifically for Appwrite, demonstrating enterprise-grade AI/ML engineering capabilities. This production-ready demo showcases the complete integration of cutting-edge technologies including open-source LLMs, vector databases, real-time anomaly detection, and Kubernetes deployment infrastructure.
 
 The platform combines intelligent documentation search, AI-powered code generation, ML-based monitoring, and smart development suggestions into a unified developer experience. Built with FastAPI, ChromaDB, Qdrant, and HuggingFace Transformers, it demonstrates modern AI/ML engineering practices from research to production deployment.
 
 Key innovations include Retrieval-Augmented Generation (RAG) for context-aware responses, multi-modal AI integration for text and code understanding, real-time ML inference with sub-100ms latency, and hybrid LLM approaches combining open-source and commercial models for optimal performance and cost efficiency.`,
   category: 'enterprise',
-  status: 'launched',
+  status: 'development',
   featured: true,
   
   technologies: [
-    'Python 3.11',
-    'FastAPI',
-    'ChromaDB',
-    'Qdrant',
-    'HuggingFace Transformers',
-    'LangChain',
-    'PostgreSQL',
-    'Redis',
-    'Streamlit',
-    'Docker',
-    'Kubernetes',
-    'PyTorch',
-    'Sentence Transformers'
+    { name: 'Python 3.11', category: 'language' },
+    { name: 'FastAPI', category: 'framework' },
+    { name: 'ChromaDB', category: 'database' },
+    { name: 'Qdrant', category: 'database' },
+    { name: 'HuggingFace Transformers', category: 'framework' },
+    { name: 'LangChain', category: 'framework' },
+    { name: 'PostgreSQL', category: 'database' },
+    { name: 'Redis', category: 'database' },
+    { name: 'Streamlit', category: 'framework' },
+    { name: 'Docker', category: 'tool' },
+    { name: 'Kubernetes', category: 'tool' },
+    { name: 'PyTorch', category: 'framework' },
+    { name: 'Sentence Transformers', category: 'framework' }
   ],
   
   features: [
@@ -63,55 +64,49 @@ Key innovations include Retrieval-Augmented Generation (RAG) for context-aware r
     }
   ],
   
-  metrics: {
-    performance: '10K+ QPS capability',
-    accuracy: '92% search accuracy',
-    latency: '<50ms search response',
-    codeAccuracy: '87% generation accuracy',
-    detectionRate: '95% anomaly detection',
-    scalability: '3-pod Kubernetes deployment',
-    costReduction: '70% faster documentation search',
-    reliability: '99.9% uptime capability'
-  },
+  metrics: [
+    { label: 'Performance', value: '10K+ QPS capability' },
+    { label: 'Search Accuracy', value: '92%' },
+    { label: 'Response Latency', value: '<50ms' },
+    { label: 'Code Generation Accuracy', value: '87%' },
+    { label: 'Anomaly Detection Rate', value: '95%' },
+    { label: 'Scalability', value: '3-pod Kubernetes deployment' },
+    { label: 'Cost Reduction', value: '70% faster documentation search' },
+    { label: 'Reliability', value: '99.9% uptime capability' }
+  ],
   
-  links: {
-    github: 'https://github.com/bryanthompson/appwrite-demo',
-    documentation: '/projects/appwrite-ai-assistant/docs'
-  },
+  // githubUrl: 'https://github.com/bryanthompson/appwrite-demo', // TODO: Fix dead link
+  documentationUrl: '/projects/appwrite-ai-assistant/docs',
   
-  images: {
-    thumbnail: '/images/projects/appwrite-ai-assistant/thumbnail.png',
-    screenshots: [
-      '/images/projects/appwrite-ai-assistant/architecture-diagram.png',
-      '/images/projects/appwrite-ai-assistant/code-generation-demo.png',
-      '/images/projects/appwrite-ai-assistant/anomaly-detection-dashboard.png'
-    ]
-  },
+  thumbnail: '/images/projects/appwrite-ai-assistant/thumbnail.png',
+  screenshots: [
+    '/images/projects/appwrite-ai-assistant/architecture-diagram.png',
+    '/images/projects/appwrite-ai-assistant/code-generation-demo.png',
+    '/images/projects/appwrite-ai-assistant/anomaly-detection-dashboard.png'
+  ],
   
-  seo: {
-    title: 'Appwrite AI Assistant - Enterprise AI Developer Platform by Bryan Thompson',
-    description: 'Production-ready AI-powered developer assistant with intelligent search, code generation, anomaly detection, and Kubernetes deployment. Built with FastAPI, ChromaDB, and HuggingFace Transformers.',
-    keywords: [
-      'AI',
-      'developer assistant',
-      'enterprise AI',
-      'code generation',
-      'semantic search',
-      'anomaly detection',
-      'FastAPI',
-      'ChromaDB',
-      'Qdrant',
-      'HuggingFace',
-      'Kubernetes',
-      'machine learning',
-      'vector database',
-      'LLM',
-      'RAG',
-      'production AI',
-      'Appwrite',
-      'Python',
-      'Docker',
-      'microservices'
-    ]
-  }
+  seoTitle: 'Appwrite AI Assistant - Enterprise AI Developer Platform by Bryan Thompson',
+  seoDescription: 'Production-ready AI-powered developer assistant with intelligent search, code generation, anomaly detection, and Kubernetes deployment. Built with FastAPI, ChromaDB, and HuggingFace Transformers.',
+  keywords: [
+    'AI',
+    'developer assistant',
+    'enterprise AI',
+    'code generation',
+    'semantic search',
+    'anomaly detection',
+    'FastAPI',
+    'ChromaDB',
+    'Qdrant',
+    'HuggingFace',
+    'Kubernetes',
+    'machine learning',
+    'vector database',
+    'LLM',
+    'RAG',
+    'production AI',
+    'Appwrite',
+    'Python',
+    'Docker',
+    'microservices'
+  ]
 }

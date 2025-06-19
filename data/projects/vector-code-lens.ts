@@ -82,7 +82,7 @@ Key innovations include intelligent code chunking with structural awareness, sem
     }
   ],
   
-  githubUrl: 'https://github.com/BryanNsoh/VectorCodeLens',
+  // githubUrl: 'https://github.com/BryanNsoh/VectorCodeLens', // TODO: Fix dead link
   documentationUrl: '/projects/vector-code-lens/docs',
   
   seoTitle: 'VectorCodeLens - AI-Powered Semantic Code Analysis by Bryan Thompson',

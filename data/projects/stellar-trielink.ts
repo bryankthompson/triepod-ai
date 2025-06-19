@@ -62,7 +62,7 @@ export const stellarTrielink: Project = {
     { label: 'Compatibility', value: 'OpenAI-compatible' }
   ],
   
-  githubUrl: 'https://github.com/bryanthompson/stellar_trielink',
+  // githubUrl: 'https://github.com/bryanthompson/stellar_trielink', // TODO: Fix dead link
   documentationUrl: '/projects/stellar-trielink/docs',
   
   thumbnail: '/images/projects/stellar-trielink/thumbnail.png',

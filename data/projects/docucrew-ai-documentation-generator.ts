@@ -7,7 +7,7 @@ export const docucrewAiDocumentationGenerator: Project = {
   tagline: 'Multi-agent AI system that automatically generates comprehensive documentation for GitHub repositories',
   description: 'DocuCrew is an intelligent multi-agent system that revolutionizes software documentation by automatically generating comprehensive, professional-grade documentation for GitHub repositories. Using CrewAI&apos;s collaborative agent framework, five specialized AI agents work together to analyze code, document APIs, create usage examples, and produce polished documentation. The system features real-time progress tracking through a beautiful Next.js interface, allowing users to watch AI agents collaborate in real-time. With deep code analysis capabilities and pattern recognition, DocuCrew produces export-ready markdown documentation that saves development teams hours of manual work while ensuring consistent, high-quality documentation standards.',
   category: 'developer-tools',
-  status: 'launched',
+  status: 'development',
   featured: true,
   
   technologies: [

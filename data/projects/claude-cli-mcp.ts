@@ -77,7 +77,7 @@ export const claudeCliMcp: Project = {
     }
   ],
   
-  githubUrl: 'https://github.com/bryan-triepod/claude-cli-mcp',
+  // githubUrl: 'https://github.com/bryan-triepod/claude-cli-mcp', // TODO: Fix dead link
   documentationUrl: '/projects/claude-cli-mcp/docs',
   
   seoTitle: 'Claude CLI MCP Server - AI Integration Tool by Bryan Thompson',

@@ -64,7 +64,7 @@ This solution addresses the growing need for local AI model integration while ma
     { label: 'Reliability', value: 'Enterprise-grade' }
   ],
   
-  githubUrl: 'https://github.com/BryanNTGitHub/ollama-wrapper',
+  // githubUrl: 'https://github.com/BryanNTGitHub/ollama-wrapper', // TODO: Fix dead link
   documentationUrl: '/projects/ollama-mcp-wrapper/docs',
   
   thumbnail: '/images/projects/ollama-mcp-wrapper/thumbnail.png',

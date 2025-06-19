@@ -79,7 +79,7 @@ export const mergerBalanceAutomation: Project = {
     }
   ],
   
-  githubUrl: 'https://github.com/bthompson-nd/balancing_act',
+  // githubUrl: 'https://github.com/bthompson-nd/balancing_act', // TODO: Fix dead link
   
   seoTitle: 'Merger Balance Sheet Automation - AI Financial Reconciliation by Bryan Thompson',
   seoDescription: 'AI-powered financial data reconciliation system for bank mergers achieving 90%+ accuracy using vector embeddings and semantic matching.',

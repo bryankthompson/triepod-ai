@@ -60,6 +60,9 @@ export const directoryTreeAI: Project = {
   
   startDate: '2025-06',
   
+  // Note: This project appears to be conceptual/early development phase
+  // TODO: Add GitHub repository and demo when available
+  
   seoTitle: 'Directory Tree AI - Intelligent File System Analysis',
   seoDescription: 'Advanced AI for analyzing and visualizing directory structures with semantic code understanding. Coming soon.',
   keywords: ['directory analysis', 'code visualization', 'file system AI', 'project structure', 'code organization']

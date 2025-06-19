@@ -63,7 +63,7 @@ The project features comprehensive logging, cross-platform compatibility with AN
     }
   ],
   
-  githubUrl: 'https://github.com/disler/triepod.ai_encoder_ring',
+  // githubUrl: 'https://github.com/disler/triepod.ai_encoder_ring', // TODO: Fix dead link
   
   seoTitle: 'Triepod Encoder Ring - Cyberpunk Email Generator | Bryan Thompson',
   seoDescription: 'Generate unique cyberpunk-themed email addresses with deterministic encoding. Perfect for developers and security researchers.',

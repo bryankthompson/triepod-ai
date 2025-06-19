@@ -13,7 +13,7 @@ export const disabilityRightsAI: Project = {
   real-world cases.`,
   
   category: 'legal-tech',
-  status: 'development',
+  status: 'beta',
   featured: true,
   order: 1,
   

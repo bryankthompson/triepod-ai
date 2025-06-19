@@ -1,0 +1,11 @@
+[2025-06-19T12:34:14.935Z] [INFO] Knowledge Graph MCP Server (Neo4j/File Fallback) running on stdio
+[2025-06-19T12:34:16.484Z] [INFO] Successfully connected to Neo4j.
+[2025-06-19T12:34:16.609Z] [INFO] Ensured Neo4j constraints and indexes exist for Entity and Observation nodes.
+[2025-06-19T18:19:19.229Z] [INFO] Received SIGTERM, shutting down...
+[2025-06-19T18:19:19.241Z] [INFO] Neo4j driver closed.
+[2025-06-19T18:19:24.566Z] [INFO] Knowledge Graph MCP Server (Neo4j/File Fallback) running on stdio
+[2025-06-19T18:19:24.763Z] [INFO] Successfully connected to Neo4j.
+[2025-06-19T18:19:24.895Z] [INFO] Ensured Neo4j constraints and indexes exist for Entity and Observation nodes.
+[2025-06-19T18:23:09.768Z] [INFO] Knowledge Graph MCP Server (Neo4j/File Fallback) running on stdio
+[2025-06-19T18:23:09.819Z] [INFO] Successfully connected to Neo4j.
+[2025-06-19T18:23:09.960Z] [INFO] Ensured Neo4j constraints and indexes exist for Entity and Observation nodes.

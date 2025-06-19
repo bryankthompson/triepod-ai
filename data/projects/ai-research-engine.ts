@@ -70,10 +70,13 @@ export const aiResearchEngine: Project = {
     }
   ],
   
-  githubUrl: 'https://github.com/triepod/research-engine',
+  // githubUrl: 'https://github.com/triepod/research-engine', // TODO: Fix dead link
   documentationUrl: '/projects/ai-research-engine/docs',
   
   startDate: '2024-06',
+  
+  // Note: Metrics appear aspirational - needs validation against actual implementation
+  // TODO: Provide GitHub repository and concrete implementation details
   
   seoTitle: 'AI Research Engine - Multi-Database Knowledge Synthesis',
   seoDescription: 'Powerful AI research system combining Neo4j, Qdrant, and Chroma for unprecedented research capabilities.',

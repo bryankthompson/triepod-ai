@@ -4,23 +4,24 @@ export const n8nWorkflowGeneratorMcp: Project = {
   id: 'n8n-workflow-generator-mcp',
   slug: 'n8n-workflow-generator-mcp',
   title: 'N8N Workflow Generator MCP Server',
-  shortDescription: 'AI-powered n8n workflow generation with comprehensive MCP server integration and advanced modification tools',
-  fullDescription: 'A sophisticated Model Context Protocol (MCP) server that transforms natural language descriptions into complete n8n workflow JSON files using Claude Code. This enterprise-grade solution combines AI-powered workflow generation with comprehensive workflow management capabilities, including real-time modification, validation, and deployment to n8n instances. The system features a 5-step sequential reasoning process, extensive node library support, and advanced workflow manipulation tools for enterprise automation needs.',
+  tagline: 'AI-powered n8n workflow generation with comprehensive MCP server integration and advanced modification tools',
+  description: 'A sophisticated Model Context Protocol (MCP) server that transforms natural language descriptions into complete n8n workflow JSON files using Claude Code.',
+  longDescription: 'A sophisticated Model Context Protocol (MCP) server that transforms natural language descriptions into complete n8n workflow JSON files using Claude Code. This enterprise-grade solution combines AI-powered workflow generation with comprehensive workflow management capabilities, including real-time modification, validation, and deployment to n8n instances. The system features a 5-step sequential reasoning process, extensive node library support, and advanced workflow manipulation tools for enterprise automation needs.',
   category: 'automation',
-  status: 'launched',
+  status: 'development',
   featured: true,
   
   technologies: [
-    'Python',
-    'FastMCP',
-    'n8n',
-    'Node.js',
-    'JavaScript',
-    'Claude AI',
-    'REST API',
-    'JSON',
-    'UUID',
-    'Workflow Automation'
+    { name: 'Python', category: 'language' },
+    { name: 'FastMCP', category: 'framework' },
+    { name: 'n8n', category: 'tool' },
+    { name: 'Node.js', category: 'framework' },
+    { name: 'JavaScript', category: 'language' },
+    { name: 'Claude AI', category: 'service' },
+    { name: 'REST API', category: 'tool' },
+    { name: 'JSON', category: 'tool' },
+    { name: 'UUID', category: 'tool' },
+    { name: 'Workflow Automation', category: 'service' }
   ],
   
   features: [
@@ -56,31 +57,25 @@ export const n8nWorkflowGeneratorMcp: Project = {
     }
   ],
   
-  metrics: {
-    nodeTypes: '50+ supported',
-    validationAccuracy: '99.9%',
-    generationSpeed: '<2 seconds',
-    enterpriseReady: 'Production-grade',
-    rollbackSuccess: '100%',
-    apiCoverage: 'Complete n8n API'
-  },
+  metrics: [
+    { label: 'Node Types Supported', value: '50+' },
+    { label: 'Validation Accuracy', value: '99.9%' },
+    { label: 'Generation Speed', value: '<2 seconds' },
+    { label: 'Enterprise Ready', value: 'Production-grade' },
+    { label: 'Rollback Success Rate', value: '100%' },
+    { label: 'API Coverage', value: 'Complete n8n API' }
+  ],
   
-  links: {
-    github: 'https://github.com/triepod-ai/n8n-workflow-generator',
-    documentation: '/projects/n8n-workflow-generator-mcp/docs'
-  },
+  // githubUrl: 'https://github.com/triepod-ai/n8n-workflow-generator', // TODO: Fix dead link
+  documentationUrl: '/projects/n8n-workflow-generator-mcp/docs',
   
-  images: {
-    thumbnail: '/images/projects/n8n-workflow-generator-mcp/thumbnail.png',
-    screenshots: [
-      '/images/projects/n8n-workflow-generator-mcp/screenshot-1.png',
-      '/images/projects/n8n-workflow-generator-mcp/screenshot-2.png'
-    ]
-  },
+  thumbnail: '/images/projects/n8n-workflow-generator-mcp/thumbnail.png',
+  screenshots: [
+    '/images/projects/n8n-workflow-generator-mcp/screenshot-1.png',
+    '/images/projects/n8n-workflow-generator-mcp/screenshot-2.png'
+  ],
   
-  seo: {
-    title: 'N8N Workflow Generator MCP Server - Enterprise Automation by Bryan Thompson',
-    description: 'AI-powered n8n workflow generation with comprehensive MCP server integration. Transform natural language into production-ready automation workflows.',
-    keywords: ['n8n', 'workflow', 'automation', 'MCP', 'AI', 'Claude', 'enterprise', 'API', 'JSON', 'validation']
-  }
+  seoTitle: 'N8N Workflow Generator MCP Server - Enterprise Automation by Bryan Thompson',
+  seoDescription: 'AI-powered n8n workflow generation with comprehensive MCP server integration. Transform natural language into production-ready automation workflows.',
+  keywords: ['n8n', 'workflow', 'automation', 'MCP', 'AI', 'Claude', 'enterprise', 'API', 'JSON', 'validation']
 }

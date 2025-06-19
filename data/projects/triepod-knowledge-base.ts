@@ -82,9 +82,9 @@ export const triepodKnowledgeBase: Project = {
     }
   ],
   
-  githubUrl: 'https://github.com/bryan308/triepod-knowledge-base',
+  // githubUrl: 'https://github.com/bryan308/triepod-knowledge-base', // TODO: Fix dead link
   documentationUrl: '/projects/triepod-knowledge-base/docs',
-  demoUrl: 'https://knowledge.triepod.ai',
+  // demoUrl: 'https://knowledge.triepod.ai', // TODO: Fix dead demo URL
   
   seoTitle: 'Triepod.ai Knowledge Base Platform - Enterprise RAG System by Bryan Thompson',
   seoDescription: 'Advanced knowledge management platform with vector database integration, semantic search, and AI-powered document processing for enterprise environments.',
