@@ -130,7 +130,7 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
             <h2 className="text-2xl font-bold mb-6">Features</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {project.features.map((feature, index) => {
-                const IconComponent = feature.icon ? (Icons as any)[feature.icon] : null;
+                const IconComponent = feature.icon && (Icons as any)[feature.icon] ? (Icons as any)[feature.icon] : null;
                 return (
                   <div key={index} className="flex gap-4">
                     {IconComponent && (
