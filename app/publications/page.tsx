@@ -106,7 +106,7 @@ export default function PublicationsPage() {
             Research Publications
           </h1>
           <p className="text-xl text-muted-foreground mb-2">
-            Advancing AI Knowledge for Mississippi's Key Industries
+            Advancing AI Knowledge for Mississippi&apos;s Key Industries
           </p>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
             Explore our published research on AI applications in agriculture, healthcare, energy, and defense. 

@@ -18,9 +18,9 @@ import {
 import { Sidebar } from '@/components/sidebar';
 
 const services = [
-  { name: 'AI Consulting', href: '/consulting', description: 'Strategic AI implementation consulting and guidance' },
-  { name: 'Research Funding', href: '/funding', description: 'Investment opportunities in AI research leadership' },
-  { name: 'Research Areas', href: '/research', description: 'Agriculture, healthcare, energy, and defense AI research' },
+  { name: 'AI Consulting', href: '/consulting', description: 'Independent AI consulting and custom development services' },
+  { name: 'Support My Research', href: '/funding', description: 'Patreon, donations, and other ways to support my work' },
+  { name: 'Research Areas', href: '/research', description: 'Current AI research interests and projects' },
 ];
 
 const resources = [

@@ -46,7 +46,7 @@ export default function AquacultureResearchPage() {
             </h2>
             <p className="text-xl text-muted-foreground mb-8 max-w-4xl mx-auto">
               Built on authentic Thompson family catfish farming heritage, our aquaculture AI research 
-              addresses the real challenges facing Mississippi's $230M catfish industry—America's largest 
+              addresses the real challenges facing Mississippi&apos;s $230M catfish industry—America&apos;s largest 
               aquaculture sector.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -103,8 +103,8 @@ export default function AquacultureResearchPage() {
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <p className="text-muted-foreground">
-                    When COVID took Bryan's leg in 2021, he dedicated his recovery to learning AI—not as an 
-                    outsider entering agriculture, but as a farmer's son building solutions for family and neighbors.
+                    When COVID took Bryan&apos;s leg in 2021, he dedicated his recovery to learning AI—not as an 
+                    outsider entering agriculture, but as a farmer&apos;s son building solutions for family and neighbors.
                   </p>
                   <ul className="space-y-2 text-sm text-muted-foreground">
                     <li>• <strong>Personal Stakes</strong> - Family business success depends on industry health</li>
@@ -119,9 +119,9 @@ export default function AquacultureResearchPage() {
             <div className="bg-blue-600/5 rounded-lg p-6 border border-blue-200/30">
               <h3 className="text-xl font-semibold mb-4 text-blue-800">Why This Heritage Matters</h3>
               <p className="text-muted-foreground">
-                <strong>This isn't just technical expertise—it's personal investment.</strong> Every AI solution we develop 
-                comes from genuine understanding of what Mississippi catfish farmers face daily. We don't just study 
-                the industry; we've lived it, worked it, and have family counting on its success.
+                <strong>This isn&apos;t just technical expertise—it&apos;s personal investment.</strong> Every AI solution we develop 
+                comes from genuine understanding of what Mississippi catfish farmers face daily. We don&apos;t just study 
+                the industry; we&apos;ve lived it, worked it, and have family counting on its success.
               </p>
             </div>
           </div>
@@ -396,7 +396,7 @@ export default function AquacultureResearchPage() {
                 Projected Research Impact
               </h2>
               <p className="text-lg text-muted-foreground">
-                Measurable outcomes for Mississippi's catfish farming community
+                Measurable outcomes for Mississippi&apos;s catfish farming community
               </p>
             </div>
 
@@ -445,8 +445,8 @@ export default function AquacultureResearchPage() {
             <div className="bg-gradient-to-r from-blue-600/5 to-green-500/5 rounded-lg p-8 border border-blue-200/20">
               <h3 className="text-2xl font-semibold mb-4 text-center">Our Commitment to the Industry</h3>
               <p className="text-lg text-muted-foreground text-center mb-6">
-                <strong>This research isn't just academic—it's personal.</strong> Every breakthrough benefits our family, 
-                our neighbors, and the industry that raised us. We're committed to practical solutions that real farms 
+                <strong>This research isn&apos;t just academic—it&apos;s personal.</strong> Every breakthrough benefits our family, 
+                our neighbors, and the industry that raised us. We&apos;re committed to practical solutions that real farms 
                 can implement and afford.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">

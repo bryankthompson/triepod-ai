@@ -7,14 +7,14 @@ import { featuredProjects } from '@/data/projects';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Triepod AI Research - Mississippi\'s Premier AI Research Firm',
-  description: 'Mississippi\'s leading AI research firm specializing in agriculture, healthcare, energy, and defense automation. Supporting the state\'s historic NVIDIA partnership for AI education and workforce development.',
-  keywords: ['AI research', 'Mississippi AI', 'NVIDIA partnership', 'agriculture automation', 'healthcare AI', 'energy optimization', 'defense research', 'automation engineering'],
+  title: 'Bryan Thompson - AI Researcher & Engineer',
+  description: 'Independent AI researcher focusing on automation solutions for agriculture, healthcare, and technology systems in Mississippi.',
+  keywords: ['AI research', 'Mississippi AI', 'automation research', 'agriculture automation', 'healthcare AI', 'energy optimization', 'independent research', 'automation engineering'],
   openGraph: {
-    title: 'Triepod AI Research - Mississippi\'s Premier AI Research Firm',
-    description: 'Cutting-edge AI research advancing Mississippi\'s key industries through the NVIDIA partnership initiative.',
+    title: 'Bryan Thompson - AI Researcher & Engineer',
+    description: 'Independent AI research and automation development in Mississippi.',
     type: 'website',
-    siteName: 'Triepod AI Research',
+    siteName: 'Bryan Thompson AI Research',
   },
 };
 
@@ -26,27 +26,27 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-secondary/5 z-0" />
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-5xl mx-auto text-center">
-            <div className="inline-flex items-center px-4 py-2 bg-green-500/10 text-green-500 rounded-full text-sm font-medium mb-6 animate-pulse">
-              <Target className="h-4 w-4 mr-2" />
-              Supporting Mississippi&apos;s Historic NVIDIA Partnership
+            <div className="inline-flex items-center px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium mb-6">
+              <Brain className="h-4 w-4 mr-2" />
+              AI Research & Development
             </div>
             <h1 className="text-4xl md:text-6xl font-bold mb-6 glow-text">
-              Mississippi&apos;s Premier<br />AI Research Firm
+              Bryan Thompson<br />AI Researcher & Engineer
             </h1>
             <p className="text-xl text-muted-foreground mb-8 max-w-3xl mx-auto">
-              Triepod AI Research drives cutting-edge automation research in agriculture, 
-              healthcare, energy, and defense. Supporting Mississippi&apos;s NVIDIA partnership 
-              for AI education, workforce development, and economic growth.
+              Independent AI researcher focusing on automation solutions for agriculture, 
+              healthcare, and technology systems. Exploring practical applications of AI 
+              that can make a real difference in Mississippi and beyond.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="glow" asChild>
                 <Link href="/research">
-                  Explore Our Research <ArrowRight className="ml-2 h-5 w-5" />
+                  View My Research <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
               </Button>
               <Button size="lg" variant="outline" asChild>
                 <Link href="/contact">
-                  Collaboration Opportunities <ChevronRight className="ml-2 h-5 w-5" />
+                  Get In Touch <ChevronRight className="ml-2 h-5 w-5" />
                 </Link>
               </Button>
             </div>
@@ -59,11 +59,11 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 glow-text">
-              Research Impact & Innovation
+              Current Research & Projects
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Cutting-edge research delivering measurable impact across Mississippi&apos;s key industries.
-              See how our automation research advances the state&apos;s economic future.
+              Exploring practical AI applications across different domains. 
+              Working on automation solutions that solve real-world problems.
             </p>
           </div>
           
@@ -71,15 +71,15 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto mb-12">
             <div className="text-center">
               <div className="text-4xl font-bold text-primary mb-2">4</div>
-              <div className="text-sm text-muted-foreground">Key Research Areas</div>
+              <div className="text-sm text-muted-foreground">Active Research Areas</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-primary mb-2">NVIDIA</div>
-              <div className="text-sm text-muted-foreground">Partnership Ready</div>
+              <div className="text-4xl font-bold text-primary mb-2">MS</div>
+              <div className="text-sm text-muted-foreground">Based in Mississippi</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-primary mb-2">Automation</div>
-              <div className="text-sm text-muted-foreground">Engineering Expertise</div>
+              <div className="text-4xl font-bold text-primary mb-2">AI</div>
+              <div className="text-sm text-muted-foreground">Automation Focus</div>
             </div>
           </div>
           
@@ -91,11 +91,11 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 glow-text">
-              Four Pillars of AI Research
+              Research Interest Areas
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Advanced automation research across Mississippi&apos;s critical industries. 
-              Supporting the NVIDIA partnership through cutting-edge research and innovation.
+              Exploring AI applications across different domains. 
+              Interested in practical automation that can solve real problems.
             </p>
           </div>
           
@@ -106,8 +106,8 @@ export default function Home() {
               </div>
               <h3 className="font-semibold text-lg mb-2">Agriculture AI</h3>
               <p className="text-sm text-muted-foreground">
-                Precision farming automation, cotton & soybean optimization, 
-                and smart agricultural systems for Mississippi farmers
+                Exploring automation opportunities in farming, from crop monitoring 
+                to optimization systems that could help local farmers
               </p>
             </div>
             
@@ -117,8 +117,8 @@ export default function Home() {
               </div>
               <h3 className="font-semibold text-lg mb-2">Healthcare AI</h3>
               <p className="text-sm text-muted-foreground">
-                Rural telemedicine solutions, predictive diagnostics, and 
-                automated patient care for underserved communities
+                Interested in how AI could improve healthcare access in rural areas, 
+                from telemedicine tools to diagnostic automation
               </p>
             </div>
             
@@ -128,8 +128,8 @@ export default function Home() {
               </div>
               <h3 className="font-semibold text-lg mb-2">Energy AI</h3>
               <p className="text-sm text-muted-foreground">
-                Smart grid optimization, renewable energy forecasting, and 
-                automated energy efficiency systems
+                Looking at smart grid applications and energy efficiency, 
+                particularly for renewable energy systems
               </p>
             </div>
             
@@ -137,10 +137,10 @@ export default function Home() {
               <div className="w-16 h-16 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
                 <Shield className="h-8 w-8 text-primary" />
               </div>
-              <h3 className="font-semibold text-lg mb-2">Defense AI</h3>
+              <h3 className="font-semibold text-lg mb-2">Technology AI</h3>
               <p className="text-sm text-muted-foreground">
-                Cybersecurity automation, defense logistics optimization, and 
-                advanced security systems research
+                Exploring cybersecurity automation and system optimization, 
+                with focus on practical security applications
               </p>
             </div>
           </div>
@@ -208,10 +208,10 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 glow-text">
-              Our Research Methodology
+              My Research Approach
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Systematic approach to automation research ensuring practical impact across Mississippi&apos;s key industries.
+              A practical methodology focused on building solutions that actually work and solve real problems.
             </p>
           </div>
           
@@ -220,9 +220,9 @@ export default function Home() {
               <div className="w-16 h-16 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
                 <span className="text-primary font-bold text-xl">1</span>
               </div>
-              <h3 className="font-semibold text-lg mb-2">Industry Analysis</h3>
+              <h3 className="font-semibold text-lg mb-2">Problem Identification</h3>
               <p className="text-sm text-muted-foreground">
-                Deep dive into Mississippi&apos;s agriculture, healthcare, energy, and defense sectors to identify automation opportunities
+                Look for real challenges where automation could make a meaningful difference
               </p>
             </div>
             
@@ -230,9 +230,9 @@ export default function Home() {
               <div className="w-16 h-16 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
                 <span className="text-primary font-bold text-xl">2</span>
               </div>
-              <h3 className="font-semibold text-lg mb-2">Research Design</h3>
+              <h3 className="font-semibold text-lg mb-2">Research & Exploration</h3>
               <p className="text-sm text-muted-foreground">
-                Develop research frameworks aligned with NVIDIA partnership goals and state economic objectives
+                Investigate existing solutions and explore new approaches using available tools
               </p>
             </div>
             
@@ -240,9 +240,9 @@ export default function Home() {
               <div className="w-16 h-16 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
                 <span className="text-primary font-bold text-xl">3</span>
               </div>
-              <h3 className="font-semibold text-lg mb-2">Prototype Development</h3>
+              <h3 className="font-semibold text-lg mb-2">Build & Test</h3>
               <p className="text-sm text-muted-foreground">
-                Build and test automation solutions using cutting-edge AI technologies and engineering principles
+                Create working prototypes and test them thoroughly to ensure they actually function
               </p>
             </div>
             
@@ -250,9 +250,9 @@ export default function Home() {
               <div className="w-16 h-16 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
                 <span className="text-primary font-bold text-xl">4</span>
               </div>
-              <h3 className="font-semibold text-lg mb-2">Impact Validation</h3>
+              <h3 className="font-semibold text-lg mb-2">Document & Share</h3>
               <p className="text-sm text-muted-foreground">
-                Measure research outcomes, publish findings, and collaborate with industry partners for real-world implementation
+                Document what works, what doesn&apos;t, and share findings for others to build upon
               </p>
             </div>
           </div>
@@ -263,21 +263,21 @@ export default function Home() {
       <section className="py-20 bg-muted/50">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Collaborate with Mississippi&apos;s AI Research Leaders
+            Interested in AI Research Collaboration?
           </h2>
           <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Partner with us to advance automation research across agriculture, healthcare, energy, and defense. 
-            Together, we&apos;ll drive Mississippi&apos;s AI initiative forward through cutting-edge research and innovation.
+            I&apos;m always interested in connecting with other researchers, potential collaborators, 
+            or anyone working on interesting automation problems.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" asChild>
               <Link href="/contact">
-                Research Partnership <ArrowRight className="ml-2 h-5 w-5" />
+                Get In Touch <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
             <Button size="lg" variant="outline" asChild>
               <Link href="/research">
-                Explore Research Areas <ChevronRight className="ml-2 h-5 w-5" />
+                View My Research <ChevronRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
           </div>

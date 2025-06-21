@@ -4,11 +4,11 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'AI-Driven Precision Agriculture: Optimizing Crop Yields in Mississippi | Triepod AI Research',
-  description: 'This research investigates the application of artificial intelligence in precision agriculture systems to optimize crop yields for Mississippi's primary agricultural products including cotton and soybeans.',
+  description: 'This research investigates the application of artificial intelligence in precision agriculture systems to optimize crop yields for Mississippi primary agricultural products including cotton and soybeans.',
   keywords: ['precision agriculture', 'AI', 'crop optimization', 'Mississippi farming', 'automation'],
   openGraph: {
     title: 'AI-Driven Precision Agriculture: Optimizing Crop Yields in Mississippi | Triepod AI Research',
-    description: 'This research investigates the application of artificial intelligence in precision agriculture systems to optimize crop yields for Mississippi's primary agricultural products including cotton and soybeans.',
+    description: 'This research investigates the application of artificial intelligence in precision agriculture systems to optimize crop yields for Mississippi primary agricultural products including cotton and soybeans.',
     type: 'article',
     publishedTime: 'Fri Jun 20 2025 19:00:00 GMT-0500 (Central Daylight Time)',
     authors: ['Triepod AI Research Team'],
@@ -68,7 +68,7 @@ export default function AiDrivenPrecisionAgricultureOptimizingCropYieldsInMissis
           
           <div className="bg-primary/5 border-l-4 border-primary p-6 rounded-r-lg">
             <h3 className="font-semibold text-lg mb-3 text-primary">Abstract</h3>
-            <p className="text-gray-700 leading-relaxed">This research investigates the application of artificial intelligence in precision agriculture systems to optimize crop yields for Mississippi's primary agricultural products including cotton and soybeans.</p>
+            <p className="text-gray-700 leading-relaxed">This research investigates the application of artificial intelligence in precision agriculture systems to optimize crop yields for Mississippi&apos;s primary agricultural products including cotton and soybeans.</p>
           </div>
         </header>
 

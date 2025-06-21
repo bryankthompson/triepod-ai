@@ -79,7 +79,7 @@ export default function SolvingMississippisCatfishProfitabilityCrisisWithAiPage(
           </div>
           
           <p className="text-xl text-gray-700 leading-relaxed">
-            A comprehensive analysis of Mississippi's $230M catfish industry profitability crisis and how AI automation can help 150+ family farms return to sustainable profits through smart technology implementation.
+            A comprehensive analysis of Mississippi&apos;s $230M catfish industry profitability crisis and how AI automation can help 150+ family farms return to sustainable profits through smart technology implementation.
           </p>
           
           

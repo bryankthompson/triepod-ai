@@ -4,11 +4,11 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Agriculture AI Research Opportunities in Mississippi-NVIDIA Partnership | Triepod AI',
-  description: 'Explore agriculture AI research opportunities from Mississippi's NVIDIA partnership. Triepod AI Research leads precision farming automation for cotton, soybeans, and sustainable agriculture.',
+  description: 'Explore agriculture AI research opportunities from Mississippi NVIDIA partnership. Triepod AI Research leads precision farming automation for cotton, soybeans, and sustainable agriculture.',
   keywords: ['agriculture AI', 'precision farming', 'Mississippi agriculture', 'NVIDIA partnership', 'crop optimization', 'smart farming', 'automation research'],
   openGraph: {
     title: 'Agriculture AI Research Opportunities in Mississippi-NVIDIA Partnership | Triepod AI',
-    description: 'Explore agriculture AI research opportunities from Mississippi's NVIDIA partnership. Triepod AI Research leads precision farming automation for cotton, soybeans, and sustainable agriculture.',
+    description: 'Explore agriculture AI research opportunities from Mississippi NVIDIA partnership. Triepod AI Research leads precision farming automation for cotton, soybeans, and sustainable agriculture.',
     type: 'article',
     publishedTime: 'Thu Jun 19 2025 19:00:00 GMT-0500 (Central Daylight Time)',
     authors: ['Triepod AI Research Team'],
@@ -83,7 +83,7 @@ export default function MississippiNvidiaPartnershipUnlockingAgricultureAiResear
           </div>
           
           <p className="text-xl text-gray-700 leading-relaxed">
-            Mississippi's NVIDIA partnership opens unprecedented agriculture AI research opportunities. Discover how precision farming automation can transform the state's $7 billion agricultural sector through cutting-edge research and innovation.
+            Mississippi&apos;s NVIDIA partnership opens unprecedented agriculture AI research opportunities. Discover how precision farming automation can transform the state&apos;s $7 billion agricultural sector through cutting-edge research and innovation.
           </p>
           
           
@@ -401,7 +401,7 @@ export default function MississippiNvidiaPartnershipUnlockingAgricultureAiResear
 <p className="mb-4 leading-relaxed"><strong>Our research proves the potential. The partnership provides the resources. The opportunity is unprecedented.</strong></p>
 <p className="mb-4 leading-relaxed">Mississippi agriculture stands at the threshold of a technological revolution that will define farming for generations to come. The question isn&#39;t whether AI will transform agriculture—it&#39;s whether Mississippi will lead that transformation or follow others.</p>
 <p className="mb-4 leading-relaxed"><strong>The time for leadership is now.</strong></p>
-<hr>
+<hr />
 <p className="mb-4 leading-relaxed"><em>Triepod AI Research leads Mississippi&#39;s agriculture AI research with proven results across 50+ farms and 25,000+ acres. Our automation expertise and practical focus support farmers, industry partners, and the state&#39;s NVIDIA partnership goals.</em></p>
 <p className="mb-4 leading-relaxed"><strong>Ready to revolutionize Mississippi agriculture through AI research? <a className="text-primary hover:text-primary/80 underline" href="/contact?research=agriculture">Contact our agriculture research team</a> to explore collaboration opportunities and join the precision farming revolution.</strong></p>
 

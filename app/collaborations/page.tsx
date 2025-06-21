@@ -21,11 +21,11 @@ export default function CollaborationsPage() {
             Research Collaborations
           </h1>
           <p className="text-xl text-muted-foreground mb-2">
-            Partnering for AI Innovation in Mississippi's Key Industries
+            Partnering for AI Innovation in Mississippi&apos;s Key Industries
           </p>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
             We collaborate with universities, industry leaders, and government agencies to advance AI research 
-            and support Mississippi's vision for technological leadership.
+            and support Mississippi&apos;s vision for technological leadership.
           </p>
         </div>
 
@@ -41,7 +41,7 @@ export default function CollaborationsPage() {
               </div>
               <CardTitle className="text-3xl text-green-800">Mississippi-NVIDIA AI Partnership</CardTitle>
               <CardDescription className="text-lg">
-                Aligned with the state's $9 billion AI initiative for education, workforce development, and economic growth
+                Aligned with the state&apos;s $9 billion AI initiative for education, workforce development, and economic growth
               </CardDescription>
             </CardHeader>
             <CardContent className="space-y-6">
@@ -49,7 +49,7 @@ export default function CollaborationsPage() {
                 <div>
                   <h4 className="font-semibold text-green-800 mb-3">Partnership Goals</h4>
                   <ul className="space-y-2 text-sm text-green-700">
-                    <li>• AI research advancing Mississippi's key industries</li>
+                    <li>• AI research advancing Mississippi&apos;s key industries</li>
                     <li>• Educational programs for workforce development</li>
                     <li>• Economic development through technology innovation</li>
                     <li>• Position Mississippi as agricultural AI leader</li>
@@ -212,7 +212,7 @@ export default function CollaborationsPage() {
               </CardHeader>
               <CardContent className="space-y-4">
                 <p className="text-sm text-blue-700">
-                  Aligned with Mississippi's $9 billion NVIDIA partnership for AI education, 
+                  Aligned with Mississippi&apos;s $9 billion NVIDIA partnership for AI education, 
                   workforce development, and economic growth in key industries.
                 </p>
                 <div className="space-y-2">
@@ -297,7 +297,7 @@ export default function CollaborationsPage() {
           <div className="bg-gradient-to-r from-blue-600/5 to-green-500/5 rounded-lg p-8 border border-blue-200/20">
             <h3 className="text-3xl font-semibold mb-4">Ready to Collaborate?</h3>
             <p className="text-lg text-muted-foreground mb-6 max-w-3xl mx-auto">
-              Join us in advancing AI research for Mississippi's key industries. Whether you're from academia, 
+              Join us in advancing AI research for Mississippi&apos;s key industries. Whether you&apos;re from academia, 
               industry, or government, we welcome partnerships that create meaningful impact.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
