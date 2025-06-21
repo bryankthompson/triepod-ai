@@ -15,12 +15,21 @@ import { docucrewAiDocumentationGenerator } from './docucrew-ai-documentation-ge
 import { smartmatchResumeAdvisor } from './smartmatch-resume-advisor';
 import { appwriteAiAssistant } from './appwrite-ai-assistant';
 import { n8nWorkflowGeneratorMcp } from './n8n-workflow-generator-mcp';
+import { aiDrivenFarmAutomation } from './ai-driven-farm-automation';
+import { catfishProfitabilityAI } from './catfish-profitability-ai';
+import { healthcareAIRural } from './healthcare-ai-rural';
+import { energyGridOptimization } from './energy-grid-optimization';
+import { defenseCybersecurityAI } from './defense-cybersecurity-ai';
 
 // Export individual projects
-export { disabilityRightsAI, directoryTreeAI, aiResearchEngine, triepodKnowledgeBase, claudeCliMcp, vectorCodeLens, mergerBalanceAutomation, triepodEncoderRing, cyberpunkChat, stellarTrielink, ollamaMcpWrapper, memorySystemMcp, docucrewAiDocumentationGenerator, smartmatchResumeAdvisor, appwriteAiAssistant, n8nWorkflowGeneratorMcp };
+export { disabilityRightsAI, directoryTreeAI, aiResearchEngine, triepodKnowledgeBase, claudeCliMcp, vectorCodeLens, mergerBalanceAutomation, triepodEncoderRing, cyberpunkChat, stellarTrielink, ollamaMcpWrapper, memorySystemMcp, docucrewAiDocumentationGenerator, smartmatchResumeAdvisor, appwriteAiAssistant, n8nWorkflowGeneratorMcp, aiDrivenFarmAutomation, catfishProfitabilityAI, healthcareAIRural, energyGridOptimization, defenseCybersecurityAI };
 
 // Export all projects as an array
 export const allProjects: Project[] = [
+  // Featured Research Projects
+  aiDrivenFarmAutomation,
+  catfishProfitabilityAI,
+  
   // Featured Professional Projects
   n8nWorkflowGeneratorMcp,
   appwriteAiAssistant,
@@ -32,6 +41,11 @@ export const allProjects: Project[] = [
   mergerBalanceAutomation,
   vectorCodeLens,
   triepodKnowledgeBase,
+  
+  // Research Projects
+  healthcareAIRural,
+  energyGridOptimization,
+  defenseCybersecurityAI,
   
   // Other Professional Projects
   disabilityRightsAI,
@@ -66,9 +80,9 @@ export const experimentalProjects = allProjects.filter(project => project.catego
 // Projects page configuration
 export const projectsPageData: ProjectsPageData = {
   hero: {
-    title: 'AI Innovation Portfolio',
-    subtitle: 'Building the Future of Intelligent Systems',
-    description: 'Explore our collection of AI-powered solutions designed to solve real-world problems and democratize access to advanced technology.'
+    title: 'Research & Innovation Portfolio',
+    subtitle: 'Advancing AI for Mississippi\'s Key Industries',
+    description: 'Explore our research projects and AI solutions focused on agriculture, healthcare, energy, and defense - supporting Mississippi\'s NVIDIA partnership goals.'
   },
   categories: [
     {

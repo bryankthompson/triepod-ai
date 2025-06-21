@@ -1,0 +1,23 @@
+{
+  "watchMode": true,
+  "aiEnhancement": true,
+  "autoPublish": false,
+  "buildOnChange": true,
+  "aiModel": "claude",
+  "outputFormat": "tsx",
+  "researchAreas": [
+    "agriculture",
+    "healthcare", 
+    "energy",
+    "defense"
+  ],
+  "publicationTypes": [
+    "research-paper",
+    "white-paper",
+    "case-study",
+    "technical-report",
+    "policy-brief"
+  ],
+  "defaultAuthor": "Triepod AI Research Team",
+  "baseTitle": "Triepod AI Research"
+}

@@ -120,28 +120,55 @@ class SimpleBlogProcessor {
       .join('') + 'Page';
   }
 
+  escapeJSXContent(content) {
+    return content
+      .replace(/'/g, '&apos;')
+      .replace(/"/g, '&quot;')
+      .replace(/&(?!(amp|lt|gt|quot|apos|#\d+|#x[0-9a-fA-F]+);)/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;');
+  }
+
   addStylingClasses(html) {
-    return html
-      .replace(/<h1>/g, '<h1 className="text-3xl font-bold mt-8 mb-4">')
-      .replace(/<h2>/g, '<h2 className="text-2xl font-semibold mt-8 mb-4">')
-      .replace(/<h3>/g, '<h3 className="text-xl font-semibold mt-6 mb-3">')
-      .replace(/<h4>/g, '<h4 className="text-lg font-semibold mt-6 mb-3">')
-      .replace(/<p>/g, '<p className="mb-4 leading-relaxed">')
-      .replace(/<ul>/g, '<ul className="list-disc list-inside mb-4 space-y-2">')
-      .replace(/<ol>/g, '<ol className="list-decimal list-inside mb-4 space-y-2">')
-      .replace(/<li>/g, '<li className="leading-relaxed">')
-      .replace(/<a href="/g, '<a className="text-primary hover:text-primary/80 underline" href="')
-      .replace(/<pre>/g, '<pre className="bg-gray-100 rounded-lg p-4 overflow-x-auto mb-4">')
-      .replace(/<code>/g, '<code className="bg-gray-100 px-2 py-1 rounded text-sm font-mono">')
-      .replace(/<blockquote>/g, '<blockquote className="border-l-4 border-primary pl-4 italic text-gray-600 mb-4">')
-      .replace(/<img /g, '<img className="rounded-lg shadow-md mb-4 max-w-full h-auto" ');
+    // First escape JSX entities in text content
+    const escapedHtml = this.escapeJSXContent(html);
+    
+    return escapedHtml
+      .replace(/&lt;h1&gt;/g, '<h1 className="text-3xl font-bold mt-8 mb-4">')
+      .replace(/&lt;h2&gt;/g, '<h2 className="text-2xl font-semibold mt-8 mb-4">')
+      .replace(/&lt;h3&gt;/g, '<h3 className="text-xl font-semibold mt-6 mb-3">')
+      .replace(/&lt;h4&gt;/g, '<h4 className="text-lg font-semibold mt-6 mb-3">')
+      .replace(/&lt;p&gt;/g, '<p className="mb-4 leading-relaxed">')
+      .replace(/&lt;ul&gt;/g, '<ul className="list-disc list-inside mb-4 space-y-2">')
+      .replace(/&lt;ol&gt;/g, '<ol className="list-decimal list-inside mb-4 space-y-2">')
+      .replace(/&lt;li&gt;/g, '<li className="leading-relaxed">')
+      .replace(/&lt;a href=&quot;/g, '<a className="text-primary hover:text-primary/80 underline" href="')
+      .replace(/&lt;pre&gt;/g, '<pre className="bg-gray-100 rounded-lg p-4 overflow-x-auto mb-4">')
+      .replace(/&lt;code&gt;/g, '<code className="bg-gray-100 px-2 py-1 rounded text-sm font-mono">')
+      .replace(/&lt;blockquote&gt;/g, '<blockquote className="border-l-4 border-primary pl-4 italic text-gray-600 mb-4">')
+      .replace(/&lt;img /g, '<img className="rounded-lg shadow-md mb-4 max-w-full h-auto" ')
+      .replace(/&lt;\/h1&gt;/g, '</h1>')
+      .replace(/&lt;\/h2&gt;/g, '</h2>')
+      .replace(/&lt;\/h3&gt;/g, '</h3>')
+      .replace(/&lt;\/h4&gt;/g, '</h4>')
+      .replace(/&lt;\/p&gt;/g, '</p>')
+      .replace(/&lt;\/ul&gt;/g, '</ul>')
+      .replace(/&lt;\/ol&gt;/g, '</ol>')
+      .replace(/&lt;\/li&gt;/g, '</li>')
+      .replace(/&lt;\/a&gt;/g, '</a>')
+      .replace(/&lt;\/pre&gt;/g, '</pre>')
+      .replace(/&lt;\/code&gt;/g, '</code>')
+      .replace(/&lt;\/blockquote&gt;/g, '</blockquote>')
+      .replace(/&quot;&gt;/g, '">');
   }
 
   async generateBlogPage(post) {
     const htmlContent = await marked(post.content);
     const styledContent = this.addStylingClasses(htmlContent);
-    const seoTitle = post.seoTitle || `${post.title} | Triepod AI Consulting`;
-    const seoDescription = post.seoDescription || post.excerpt;
+    const seoTitle = this.escapeJSXContent(post.seoTitle || `${post.title} | Triepod AI Research`);
+    const seoDescription = this.escapeJSXContent(post.seoDescription || post.excerpt);
+    const escapedTitle = this.escapeJSXContent(post.title);
+    const escapedAuthor = this.escapeJSXContent(post.author);
     
     return `import Link from 'next/link'
 import { ArrowLeft, Calendar, Clock, Tag, User } from 'lucide-react'
@@ -185,13 +212,13 @@ export default function ${this.generateComponentName(post.slug)}() {
           </div>
           
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            ${post.title}
+            ${escapedTitle}
           </h1>
           
           <div className="flex flex-wrap items-center gap-6 text-gray-600 mb-6">
             <div className="flex items-center gap-2">
               <User className="w-4 h-4" />
-              <span>${post.author}</span>
+              <span>${escapedAuthor}</span>
             </div>
             <div className="flex items-center gap-2">
               <Calendar className="w-4 h-4" />

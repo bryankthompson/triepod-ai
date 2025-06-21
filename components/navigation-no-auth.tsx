@@ -18,9 +18,9 @@ import {
 import { Sidebar } from '@/components/sidebar';
 
 const services = [
-  { name: 'ADA Document Builder', href: '/early-access', description: 'AI-powered ADA accommodation request generator' },
-  { name: 'Success Stories', href: '/case-studies/16k-document', description: 'Real results from our disability rights AI' },
-  { name: 'For Investors', href: '/investors', description: 'Join us in democratizing disability rights' },
+  { name: 'AI Consulting', href: '/consulting', description: 'Strategic AI implementation consulting and guidance' },
+  { name: 'Research Funding', href: '/funding', description: 'Investment opportunities in AI research leadership' },
+  { name: 'Research Areas', href: '/research', description: 'Agriculture, healthcare, energy, and defense AI research' },
 ];
 
 const resources = [
@@ -124,7 +124,7 @@ export function Navigation() {
               
               <div className="flex items-center space-x-4">
                 <Button variant="default" asChild>
-                  <Link href="/early-access">Get Early Access</Link>
+                  <Link href="/consulting">AI Consulting Services</Link>
                 </Button>
                 <Button variant="ghost" size="icon">
                   <Link href="https://twitter.com/triepod_ai" target="_blank">
