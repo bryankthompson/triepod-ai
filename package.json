@@ -114,6 +114,8 @@
     "zod": "^3.23.8"
   },
   "devDependencies": {
+    "@playwright/test": "^1.53.1",
+    "playwright": "^1.53.1",
     "prisma": "^6.8.2"
   }
 }
