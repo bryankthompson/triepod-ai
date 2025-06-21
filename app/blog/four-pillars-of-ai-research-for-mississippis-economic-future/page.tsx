@@ -91,13 +91,13 @@ export default function FourPillarsOfAiResearchForMississippisEconomicFuturePage
 
         {/* Article Content */}
         <div className="prose prose-lg prose-gray max-w-none">
-          <h1 className="text-3xl font-bold mt-8 mb-4">Four Pillars of AI Research for Mississippi&#39;s Economic Future</h1>
+          <h1 className="text-3xl font-bold mt-8 mb-4">Four Pillars of AI Research for Mississippi&apos;s Economic Future</h1>
 <p className="mb-4 leading-relaxed"><strong>How Agriculture, Healthcare, Energy, and Defense AI Research Drive State Economic Growth</strong></p>
-<p className="mb-4 leading-relaxed">Mississippi&#39;s historic partnership with NVIDIA, announced June 18, 2025, focuses on four strategic industries that form the backbone of the state&#39;s economy. These four pillars—agriculture, healthcare, energy, and defense—represent not just economic sectors, but transformative opportunities where artificial intelligence can deliver measurable impact for Mississippi&#39;s workforce, businesses, and communities.</p>
-<p className="mb-4 leading-relaxed">As Mississippi&#39;s leading AI research firm, Triepod AI Research has been developing automation solutions across these exact industries. Our research demonstrates how targeted AI implementation can drive significant economic growth while supporting the NVIDIA partnership&#39;s goals of education, innovation, and workforce development.</p>
+<p className="mb-4 leading-relaxed">Mississippi&apos;s historic partnership with NVIDIA, announced June 18, 2025, focuses on four strategic industries that form the backbone of the state&apos;s economy. These four pillars—agriculture, healthcare, energy, and defense—represent not just economic sectors, but transformative opportunities where artificial intelligence can deliver measurable impact for Mississippi&apos;s workforce, businesses, and communities.</p>
+<p className="mb-4 leading-relaxed">As Mississippi&apos;s leading AI research firm, Triepod AI Research has been developing automation solutions across these exact industries. Our research demonstrates how targeted AI implementation can drive significant economic growth while supporting the NVIDIA partnership&apos;s goals of education, innovation, and workforce development.</p>
 <h2 className="text-2xl font-semibold mt-8 mb-4">Pillar 1: Agriculture AI Research 🌾</h2>
-<p className="mb-4 leading-relaxed"><strong>Mississippi&#39;s Agricultural Foundation</strong></p>
-<p className="mb-4 leading-relaxed">Agriculture remains Mississippi&#39;s largest industry, contributing over $7 billion annually to the state economy. With 11 million acres of farmland producing cotton, soybeans, rice, and catfish, Mississippi agriculture presents massive opportunities for AI-driven optimization.</p>
+<p className="mb-4 leading-relaxed"><strong>Mississippi&apos;s Agricultural Foundation</strong></p>
+<p className="mb-4 leading-relaxed">Agriculture remains Mississippi&apos;s largest industry, contributing over $7 billion annually to the state economy. With 11 million acres of farmland producing cotton, soybeans, rice, and catfish, Mississippi agriculture presents massive opportunities for AI-driven optimization.</p>
 <h3 className="text-xl font-semibold mt-6 mb-3">Current Research Applications</h3>
 <p className="mb-4 leading-relaxed"><strong>Precision Farming Automation:</strong></p>
 <ul className="list-disc list-inside mb-4 space-y-2">
@@ -134,7 +134,7 @@ export default function FourPillarsOfAiResearchForMississippisEconomicFuturePage
 <hr />
 <h2 className="text-2xl font-semibold mt-8 mb-4">Pillar 2: Healthcare AI Research 🏥</h2>
 <p className="mb-4 leading-relaxed"><strong>Addressing Rural Healthcare Challenges</strong></p>
-<p className="mb-4 leading-relaxed">Mississippi faces significant healthcare challenges, particularly in rural areas where 60% of the population lives. AI research offers solutions to improve access, reduce costs, and enhance care quality across the state&#39;s healthcare system.</p>
+<p className="mb-4 leading-relaxed">Mississippi faces significant healthcare challenges, particularly in rural areas where 60% of the population lives. AI research offers solutions to improve access, reduce costs, and enhance care quality across the state&apos;s healthcare system.</p>
 <h3 className="text-xl font-semibold mt-6 mb-3">Current Research Applications</h3>
 <p className="mb-4 leading-relaxed"><strong>Telemedicine Automation:</strong></p>
 <ul className="list-disc list-inside mb-4 space-y-2">
@@ -166,12 +166,12 @@ export default function FourPillarsOfAiResearchForMississippisEconomicFuturePage
 <ul className="list-disc list-inside mb-4 space-y-2">
 <li className="leading-relaxed"><strong>$800 million potential healthcare cost savings</strong> through AI efficiency improvements</li>
 <li className="leading-relaxed"><strong>3,500 new healthcare technology jobs</strong> across the state</li>
-<li className="leading-relaxed"><strong>Medical tourism opportunities</strong> attracting patients to Mississippi&#39;s AI-enhanced facilities</li>
+<li className="leading-relaxed"><strong>Medical tourism opportunities</strong> attracting patients to Mississippi&apos;s AI-enhanced facilities</li>
 </ul>
 <hr />
 <h2 className="text-2xl font-semibold mt-8 mb-4">Pillar 3: Energy AI Research ⚡</h2>
-<p className="mb-4 leading-relaxed"><strong>Modernizing Mississippi&#39;s Energy Infrastructure</strong></p>
-<p className="mb-4 leading-relaxed">Mississippi&#39;s energy sector, including traditional natural gas and emerging renewable sources, presents opportunities for AI-driven optimization that can reduce costs, improve reliability, and support environmental goals.</p>
+<p className="mb-4 leading-relaxed"><strong>Modernizing Mississippi&apos;s Energy Infrastructure</strong></p>
+<p className="mb-4 leading-relaxed">Mississippi&apos;s energy sector, including traditional natural gas and emerging renewable sources, presents opportunities for AI-driven optimization that can reduce costs, improve reliability, and support environmental goals.</p>
 <h3 className="text-xl font-semibold mt-6 mb-3">Current Research Applications</h3>
 <p className="mb-4 leading-relaxed"><strong>Smart Grid Management:</strong></p>
 <ul className="list-disc list-inside mb-4 space-y-2">
@@ -208,7 +208,7 @@ export default function FourPillarsOfAiResearchForMississippisEconomicFuturePage
 <hr />
 <h2 className="text-2xl font-semibold mt-8 mb-4">Pillar 4: Defense AI Research 🛡️</h2>
 <p className="mb-4 leading-relaxed"><strong>Supporting National Security Through Innovation</strong></p>
-<p className="mb-4 leading-relaxed">Mississippi&#39;s defense sector, including aerospace, shipbuilding, and cybersecurity, contributes significantly to the state economy. AI research enhances capabilities while creating high-value technology careers.</p>
+<p className="mb-4 leading-relaxed">Mississippi&apos;s defense sector, including aerospace, shipbuilding, and cybersecurity, contributes significantly to the state economy. AI research enhances capabilities while creating high-value technology careers.</p>
 <h3 className="text-xl font-semibold mt-6 mb-3">Current Research Applications</h3>
 <p className="mb-4 leading-relaxed"><strong>Cybersecurity Automation:</strong></p>
 <ul className="list-disc list-inside mb-4 space-y-2">
@@ -245,7 +245,7 @@ export default function FourPillarsOfAiResearchForMississippisEconomicFuturePage
 <hr />
 <h2 className="text-2xl font-semibold mt-8 mb-4">Synergistic Impact: Four Pillars Working Together</h2>
 <p className="mb-4 leading-relaxed"><strong>Cross-Industry Innovation</strong></p>
-<p className="mb-4 leading-relaxed">The true power of Mississippi&#39;s AI research strategy emerges when these four pillars work together:</p>
+<p className="mb-4 leading-relaxed">The true power of Mississippi&apos;s AI research strategy emerges when these four pillars work together:</p>
 <p className="mb-4 leading-relaxed"><strong>Shared Technology Platforms:</strong></p>
 <ul className="list-disc list-inside mb-4 space-y-2">
 <li className="leading-relaxed">AI development frameworks applicable across all four industries</li>
@@ -262,7 +262,7 @@ export default function FourPillarsOfAiResearchForMississippisEconomicFuturePage
 <ul className="list-disc list-inside mb-4 space-y-2">
 <li className="leading-relaxed">Universities developing comprehensive AI curricula serving all four industries</li>
 <li className="leading-relaxed">Industry partnerships providing real-world learning opportunities</li>
-<li className="leading-relaxed">Workforce pipeline feeding Mississippi&#39;s growing AI economy</li>
+<li className="leading-relaxed">Workforce pipeline feeding Mississippi&apos;s growing AI economy</li>
 </ul>
 <h2 className="text-2xl font-semibold mt-8 mb-4">NVIDIA Partnership: Accelerating All Four Pillars</h2>
 <p className="mb-4 leading-relaxed"><strong>Integrated Support System</strong></p>
@@ -285,9 +285,9 @@ export default function FourPillarsOfAiResearchForMississippisEconomicFuturePage
 <li className="leading-relaxed">Access to cutting-edge AI technologies and methodologies</li>
 <li className="leading-relaxed">Support for scaling successful pilot projects statewide</li>
 </ul>
-<h2 className="text-2xl font-semibold mt-8 mb-4">Mississippi&#39;s Competitive Advantage</h2>
+<h2 className="text-2xl font-semibold mt-8 mb-4">Mississippi&apos;s Competitive Advantage</h2>
 <p className="mb-4 leading-relaxed"><strong>Strategic Positioning</strong></p>
-<p className="mb-4 leading-relaxed">Mississippi&#39;s focus on these four pillars creates unique competitive advantages:</p>
+<p className="mb-4 leading-relaxed">Mississippi&apos;s focus on these four pillars creates unique competitive advantages:</p>
 <p className="mb-4 leading-relaxed"><strong>First-Mover Benefits:</strong></p>
 <ul className="list-disc list-inside mb-4 space-y-2">
 <li className="leading-relaxed">Early adoption positioning Mississippi ahead of other states</li>
@@ -325,15 +325,15 @@ export default function FourPillarsOfAiResearchForMississippisEconomicFuturePage
 <li className="leading-relaxed">Attraction of major AI companies and research institutions</li>
 <li className="leading-relaxed">Sustained economic growth driven by AI innovation</li>
 </ul>
-<h2 className="text-2xl font-semibold mt-8 mb-4">Call to Action: Building Mississippi&#39;s AI Future</h2>
+<h2 className="text-2xl font-semibold mt-8 mb-4">Call to Action: Building Mississippi&apos;s AI Future</h2>
 <p className="mb-4 leading-relaxed"><strong>Partnership Opportunities</strong></p>
-<p className="mb-4 leading-relaxed">Every stakeholder has a role in Mississippi&#39;s AI transformation:</p>
+<p className="mb-4 leading-relaxed">Every stakeholder has a role in Mississippi&apos;s AI transformation:</p>
 <p className="mb-4 leading-relaxed"><strong>🎓 Educational Institutions</strong>: Partner with industry for practical AI curriculum development<br /><strong>🏭 Industry Leaders</strong>: Collaborate on AI research projects demonstrating business value<br /><strong>🏛️ Government Agencies</strong>: Support policy development enabling AI innovation<br /><strong>👥 Workforce</strong>: Engage in training programs building AI career opportunities  </p>
 <p className="mb-4 leading-relaxed"><strong>The foundation is set. The partnership is established. The research is proven.</strong></p>
-<p className="mb-4 leading-relaxed">Mississippi&#39;s four pillars of AI research—agriculture, healthcare, energy, and defense—provide the framework for transformative economic growth. Through the NVIDIA partnership and continued research leadership, Mississippi is positioned to become a national model for AI-driven economic development.</p>
+<p className="mb-4 leading-relaxed">Mississippi&apos;s four pillars of AI research—agriculture, healthcare, energy, and defense—provide the framework for transformative economic growth. Through the NVIDIA partnership and continued research leadership, Mississippi is positioned to become a national model for AI-driven economic development.</p>
 <hr />
-<p className="mb-4 leading-relaxed"><em>Triepod AI Research leads Mississippi&#39;s AI research efforts across all four critical industries. Our automation expertise and proven results support the state&#39;s NVIDIA partnership goals of education, innovation, and economic growth.</em></p>
-<p className="mb-4 leading-relaxed"><strong>Ready to contribute to Mississippi&#39;s AI future? <a className="text-primary hover:text-primary/80 underline" href="/contact">Contact our research team</a> to explore collaboration opportunities in agriculture, healthcare, energy, or defense AI research.</strong></p>
+<p className="mb-4 leading-relaxed"><em>Triepod AI Research leads Mississippi&apos;s AI research efforts across all four critical industries. Our automation expertise and proven results support the state&apos;s NVIDIA partnership goals of education, innovation, and economic growth.</em></p>
+<p className="mb-4 leading-relaxed"><strong>Ready to contribute to Mississippi&apos;s AI future? <a className="text-primary hover:text-primary/80 underline" href="/contact">Contact our research team</a> to explore collaboration opportunities in agriculture, healthcare, energy, or defense AI research.</strong></p>
 
         </div>
 

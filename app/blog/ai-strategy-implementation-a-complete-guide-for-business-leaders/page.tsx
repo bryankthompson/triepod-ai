@@ -101,7 +101,7 @@ export default function AiStrategyImplementationACompleteGuideForBusinessLeaders
 <p className="mb-4 leading-relaxed"><strong>Employee Engagement</strong>: Include your team in the journey to ensure adoption success.</p>
 <p className="mb-4 leading-relaxed"><strong>Iterative Approach</strong>: Start small, learn fast, and scale what works.</p>
 <h2 className="text-2xl font-semibold mt-8 mb-4">Next Steps</h2>
-<p className="mb-4 leading-relaxed">Ready to develop your AI strategy? <a className="text-primary hover:text-primary/80 underline" href="/contact">Schedule a consultation</a> to discuss your organization&#39;s specific needs and opportunities.</p>
+<p className="mb-4 leading-relaxed">Ready to develop your AI strategy? <a className="text-primary hover:text-primary/80 underline" href="/contact">Schedule a consultation</a> to discuss your organization&apos;s specific needs and opportunities.</p>
 
         </div>
 

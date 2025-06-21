@@ -76,9 +76,9 @@ export default function AiDrivenPrecisionAgricultureOptimizingCropYieldsInMissis
         <div className="bg-white rounded-lg shadow-sm p-8 mb-8">
           <div className="prose prose-lg max-w-none">
             <h2 className="text-2xl font-semibold mt-8 mb-4 text-gray-800 border-b border-gray-200 pb-2">Abstract</h2>
-<p className="mb-4 leading-relaxed text-gray-700">This research investigates the application of artificial intelligence in precision agriculture systems to optimize crop yields for Mississippi&#39;s primary agricultural products including cotton and soybeans. Our study demonstrates how AI-driven automation can increase yields by up to 20% while reducing resource consumption.</p>
+<p className="mb-4 leading-relaxed text-gray-700">This research investigates the application of artificial intelligence in precision agriculture systems to optimize crop yields for Mississippi&apos;s primary agricultural products including cotton and soybeans. Our study demonstrates how AI-driven automation can increase yields by up to 20% while reducing resource consumption.</p>
 <h2 className="text-2xl font-semibold mt-8 mb-4 text-gray-800 border-b border-gray-200 pb-2">Introduction</h2>
-<p className="mb-4 leading-relaxed text-gray-700">Mississippi&#39;s agricultural sector forms the backbone of the state&#39;s economy, with cotton and soybean production representing significant economic drivers. The integration of AI technologies presents unprecedented opportunities for optimization and sustainability.</p>
+<p className="mb-4 leading-relaxed text-gray-700">Mississippi&apos;s agricultural sector forms the backbone of the state&apos;s economy, with cotton and soybean production representing significant economic drivers. The integration of AI technologies presents unprecedented opportunities for optimization and sustainability.</p>
 <h2 className="text-2xl font-semibold mt-8 mb-4 text-gray-800 border-b border-gray-200 pb-2">Methodology</h2>
 <p className="mb-4 leading-relaxed text-gray-700">Our research methodology combines field studies with AI modeling to develop practical automation solutions for Mississippi farmers.</p>
 <h3 className="text-xl font-semibold mt-6 mb-3 text-gray-800">Data Collection</h3>
@@ -101,9 +101,9 @@ export default function AiDrivenPrecisionAgricultureOptimizingCropYieldsInMissis
 <li className="leading-relaxed text-gray-700"><strong>15% decrease</strong> in operational costs</li>
 </ul>
 <h2 className="text-2xl font-semibold mt-8 mb-4 text-gray-800 border-b border-gray-200 pb-2">Implications</h2>
-<p className="mb-4 leading-relaxed text-gray-700">This research supports Mississippi&#39;s NVIDIA partnership goals by demonstrating practical AI applications in agriculture that can be scaled across the state&#39;s farming communities.</p>
+<p className="mb-4 leading-relaxed text-gray-700">This research supports Mississippi&apos;s NVIDIA partnership goals by demonstrating practical AI applications in agriculture that can be scaled across the state&apos;s farming communities.</p>
 <h2 className="text-2xl font-semibold mt-8 mb-4 text-gray-800 border-b border-gray-200 pb-2">Conclusion</h2>
-<p className="mb-4 leading-relaxed text-gray-700">AI-driven precision agriculture represents a transformative opportunity for Mississippi&#39;s agricultural sector, aligning with the state&#39;s economic development and technological advancement goals.</p>
+<p className="mb-4 leading-relaxed text-gray-700">AI-driven precision agriculture represents a transformative opportunity for Mississippi&apos;s agricultural sector, aligning with the state&apos;s economic development and technological advancement goals.</p>
 
           </div>
         </div>

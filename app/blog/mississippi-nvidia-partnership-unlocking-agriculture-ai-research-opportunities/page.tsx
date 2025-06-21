@@ -92,12 +92,12 @@ export default function MississippiNvidiaPartnershipUnlockingAgricultureAiResear
         {/* Article Content */}
         <div className="prose prose-lg prose-gray max-w-none">
           <h1 className="text-3xl font-bold mt-8 mb-4">Mississippi-NVIDIA Partnership: Unlocking Agriculture AI Research Opportunities</h1>
-<p className="mb-4 leading-relaxed"><strong>How GPU-Accelerated AI Research Can Transform Mississippi&#39;s $7 Billion Agricultural Sector</strong></p>
-<p className="mb-4 leading-relaxed">Mississippi&#39;s agricultural heartbeat just got a technological upgrade. The state&#39;s historic partnership with NVIDIA, announced June 18, 2025, creates extraordinary opportunities for agriculture AI research that could revolutionize farming across the state&#39;s 11 million acres of productive farmland.</p>
-<p className="mb-4 leading-relaxed">As Mississippi&#39;s premier AI research firm with established agriculture automation expertise, Triepod AI Research is uniquely positioned to leverage this partnership for transformative agricultural innovation. Our research demonstrates how AI-driven precision farming can increase yields by 20% while reducing costs and environmental impact.</p>
+<p className="mb-4 leading-relaxed"><strong>How GPU-Accelerated AI Research Can Transform Mississippi&apos;s $7 Billion Agricultural Sector</strong></p>
+<p className="mb-4 leading-relaxed">Mississippi&apos;s agricultural heartbeat just got a technological upgrade. The state&apos;s historic partnership with NVIDIA, announced June 18, 2025, creates extraordinary opportunities for agriculture AI research that could revolutionize farming across the state&apos;s 11 million acres of productive farmland.</p>
+<p className="mb-4 leading-relaxed">As Mississippi&apos;s premier AI research firm with established agriculture automation expertise, Triepod AI Research is uniquely positioned to leverage this partnership for transformative agricultural innovation. Our research demonstrates how AI-driven precision farming can increase yields by 20% while reducing costs and environmental impact.</p>
 <h2 className="text-2xl font-semibold mt-8 mb-4">Mississippi Agriculture: Perfect Ground for AI Innovation</h2>
 <p className="mb-4 leading-relaxed"><strong>The Economic Foundation</strong></p>
-<p className="mb-4 leading-relaxed">Mississippi agriculture represents more than tradition—it&#39;s a $7 billion economic powerhouse employing over 200,000 Mississippians and feeding communities nationwide. The state&#39;s agricultural diversity creates ideal conditions for AI research applications:</p>
+<p className="mb-4 leading-relaxed">Mississippi agriculture represents more than tradition—it&apos;s a $7 billion economic powerhouse employing over 200,000 Mississippians and feeding communities nationwide. The state&apos;s agricultural diversity creates ideal conditions for AI research applications:</p>
 <p className="mb-4 leading-relaxed"><strong>Primary Crops and Opportunities:</strong></p>
 <ul className="list-disc list-inside mb-4 space-y-2">
 <li className="leading-relaxed"><strong>Cotton (530,000 acres)</strong>: Precision monitoring and automated harvesting optimization</li>
@@ -251,7 +251,7 @@ export default function MississippiNvidiaPartnershipUnlockingAgricultureAiResear
 <li className="leading-relaxed"><strong>Transportation optimization</strong> reducing costs and improving product freshness</li>
 </ul>
 <h2 className="text-2xl font-semibold mt-8 mb-4">Educational and Workforce Development Opportunities</h2>
-<p className="mb-4 leading-relaxed"><strong>Building Mississippi&#39;s Agriculture AI Workforce</strong></p>
+<p className="mb-4 leading-relaxed"><strong>Building Mississippi&apos;s Agriculture AI Workforce</strong></p>
 <p className="mb-4 leading-relaxed">The NVIDIA partnership creates pathways for agriculture professionals to engage with AI technology:</p>
 <h3 className="text-xl font-semibold mt-6 mb-3">University Research Collaborations</h3>
 <p className="mb-4 leading-relaxed"><strong>Mississippi State University Partnership:</strong></p>
@@ -284,7 +284,7 @@ export default function MississippiNvidiaPartnershipUnlockingAgricultureAiResear
 <li className="leading-relaxed"><strong>Insurance industry education</strong> understanding risk implications of AI-enhanced farming</li>
 </ul>
 <h2 className="text-2xl font-semibold mt-8 mb-4">Economic Impact and Growth Potential</h2>
-<p className="mb-4 leading-relaxed"><strong>Transforming Mississippi&#39;s Agricultural Economy</strong></p>
+<p className="mb-4 leading-relaxed"><strong>Transforming Mississippi&apos;s Agricultural Economy</strong></p>
 <p className="mb-4 leading-relaxed">The NVIDIA partnership positions Mississippi agriculture for unprecedented economic growth:</p>
 <h3 className="text-xl font-semibold mt-6 mb-3">Direct Economic Benefits</h3>
 <p className="mb-4 leading-relaxed"><strong>Farm-Level Impact:</strong></p>
@@ -318,7 +318,7 @@ export default function MississippiNvidiaPartnershipUnlockingAgricultureAiResear
 </ul>
 <h2 className="text-2xl font-semibold mt-8 mb-4">Sustainability and Environmental Benefits</h2>
 <p className="mb-4 leading-relaxed"><strong>AI-Driven Environmental Stewardship</strong></p>
-<p className="mb-4 leading-relaxed">Agriculture AI research supports Mississippi&#39;s environmental sustainability goals:</p>
+<p className="mb-4 leading-relaxed">Agriculture AI research supports Mississippi&apos;s environmental sustainability goals:</p>
 <h3 className="text-xl font-semibold mt-6 mb-3">Resource Conservation</h3>
 <p className="mb-4 leading-relaxed"><strong>Water Management:</strong></p>
 <ul className="list-disc list-inside mb-4 space-y-2">
@@ -365,9 +365,9 @@ export default function MississippiNvidiaPartnershipUnlockingAgricultureAiResear
 <li className="leading-relaxed"><strong>Sustained economic growth</strong> from established agriculture AI industry ecosystem</li>
 <li className="leading-relaxed"><strong>Next-generation research initiatives</strong> exploring emerging technologies and applications</li>
 </ul>
-<h2 className="text-2xl font-semibold mt-8 mb-4">Call to Action: Join Mississippi&#39;s Agriculture AI Revolution</h2>
+<h2 className="text-2xl font-semibold mt-8 mb-4">Call to Action: Join Mississippi&apos;s Agriculture AI Revolution</h2>
 <p className="mb-4 leading-relaxed"><strong>Partnership and Collaboration Opportunities</strong></p>
-<p className="mb-4 leading-relaxed">Mississippi&#39;s agriculture AI future depends on collaboration across the entire agricultural ecosystem:</p>
+<p className="mb-4 leading-relaxed">Mississippi&apos;s agriculture AI future depends on collaboration across the entire agricultural ecosystem:</p>
 <p className="mb-4 leading-relaxed"><strong>🚜 Farmers and Agricultural Producers:</strong></p>
 <ul className="list-disc list-inside mb-4 space-y-2">
 <li className="leading-relaxed"><strong>Participate in pilot projects</strong> testing and refining agriculture AI applications</li>
@@ -397,12 +397,12 @@ export default function MississippiNvidiaPartnershipUnlockingAgricultureAiResear
 <li className="leading-relaxed"><strong>Connect education with industry</strong> ensuring workforce development meets economic needs</li>
 </ul>
 <h2 className="text-2xl font-semibold mt-8 mb-4">The Future of Mississippi Agriculture Starts Now</h2>
-<p className="mb-4 leading-relaxed">The NVIDIA partnership represents more than a technology collaboration—it&#39;s an opportunity to transform Mississippi agriculture for the 21st century and beyond. Through AI-driven precision farming, automated systems, and data-driven decision making, Mississippi farmers can achieve higher yields, lower costs, and greater sustainability while supporting the state&#39;s economic growth.</p>
+<p className="mb-4 leading-relaxed">The NVIDIA partnership represents more than a technology collaboration—it&apos;s an opportunity to transform Mississippi agriculture for the 21st century and beyond. Through AI-driven precision farming, automated systems, and data-driven decision making, Mississippi farmers can achieve higher yields, lower costs, and greater sustainability while supporting the state&apos;s economic growth.</p>
 <p className="mb-4 leading-relaxed"><strong>Our research proves the potential. The partnership provides the resources. The opportunity is unprecedented.</strong></p>
-<p className="mb-4 leading-relaxed">Mississippi agriculture stands at the threshold of a technological revolution that will define farming for generations to come. The question isn&#39;t whether AI will transform agriculture—it&#39;s whether Mississippi will lead that transformation or follow others.</p>
+<p className="mb-4 leading-relaxed">Mississippi agriculture stands at the threshold of a technological revolution that will define farming for generations to come. The question isn&apos;t whether AI will transform agriculture—it&apos;s whether Mississippi will lead that transformation or follow others.</p>
 <p className="mb-4 leading-relaxed"><strong>The time for leadership is now.</strong></p>
 <hr />
-<p className="mb-4 leading-relaxed"><em>Triepod AI Research leads Mississippi&#39;s agriculture AI research with proven results across 50+ farms and 25,000+ acres. Our automation expertise and practical focus support farmers, industry partners, and the state&#39;s NVIDIA partnership goals.</em></p>
+<p className="mb-4 leading-relaxed"><em>Triepod AI Research leads Mississippi&apos;s agriculture AI research with proven results across 50+ farms and 25,000+ acres. Our automation expertise and practical focus support farmers, industry partners, and the state&apos;s NVIDIA partnership goals.</em></p>
 <p className="mb-4 leading-relaxed"><strong>Ready to revolutionize Mississippi agriculture through AI research? <a className="text-primary hover:text-primary/80 underline" href="/contact?research=agriculture">Contact our agriculture research team</a> to explore collaboration opportunities and join the precision farming revolution.</strong></p>
 
         </div>

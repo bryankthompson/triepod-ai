@@ -76,7 +76,7 @@ export default function TheFutureOfAiConsultingTransformingBusinessOperationsPag
         {/* Article Content */}
         <div className="prose prose-lg prose-gray max-w-none">
           <h1 className="text-3xl font-bold mt-8 mb-4">The Future of AI Consulting</h1>
-<p className="mb-4 leading-relaxed">Artificial Intelligence is no longer a futuristic concept—it&#39;s a present reality transforming how businesses operate, make decisions, and serve customers.</p>
+<p className="mb-4 leading-relaxed">Artificial Intelligence is no longer a futuristic concept—it&apos;s a present reality transforming how businesses operate, make decisions, and serve customers.</p>
 <h2 className="text-2xl font-semibold mt-8 mb-4">Why AI Consulting Matters</h2>
 <p className="mb-4 leading-relaxed">Modern businesses face unprecedented challenges:</p>
 <ul className="list-disc list-inside mb-4 space-y-2">
