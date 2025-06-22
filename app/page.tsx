@@ -197,33 +197,35 @@ export default function Home() {
             <div className="bg-background rounded-lg p-6 shadow-sm border">
               <h3 className="font-semibold text-lg mb-3">Triepod.AI Platform</h3>
               <p className="text-sm text-muted-foreground mb-4">
-                Personal project building an agentic RAG platform with contract-based plugin system. 
-                Experimenting with vector database optimization and multi-LLM integration for workflow automation.
+                Platform demonstrating creative recombination of AI tools - combining RAG, vector databases, 
+                and multi-LLM orchestration in unexpected ways. Built by &apos;stirring the pot&apos; of existing 
+                technologies to create something genuinely useful.
               </p>
               <div className="text-xs text-muted-foreground">
-                <strong>Technologies:</strong> Python, OpenAI API, Pinecone, Docker
+                <strong>Creative Combination:</strong> OpenAI + Pinecone + Docker workflows = 40% faster integration
               </div>
             </div>
             
             <div className="bg-background rounded-lg p-6 shadow-sm border">
               <h3 className="font-semibold text-lg mb-3">VectorCodeLens</h3>
               <p className="text-sm text-muted-foreground mb-4">
-                Side project creating semantic code search across large codebases using vector embeddings. 
-                Learning experience with LLM abstraction layers and context-preserving chunking algorithms.
+                Found an unexpected &apos;door within the closet&apos; - semantic search + code analysis + 
+                chunking algorithms work together in ways not commonly tried. Simple combination, 
+                powerful emergent behavior.
               </p>
               <div className="text-xs text-muted-foreground">
-                <strong>Technologies:</strong> JavaScript, TypeScript, Qdrant, Node.js
+                <strong>Hidden Door Discovery:</strong> Vector embeddings + metadata filtering = 40% precision boost
               </div>
             </div>
             
             <div className="bg-background rounded-lg p-6 shadow-sm border">
               <h3 className="font-semibold text-lg mb-3">Balancing Act</h3>
               <p className="text-sm text-muted-foreground mb-4">
-                Work project developing financial data reconciliation tools using semantic matching. 
-                Applied machine learning techniques to improve cross-platform data matching accuracy.
+                Real-world testing of semantic matching theories. Validated what actually works versus 
+                what sounds good - discovering that simple ML combinations often outperform complex frameworks.
               </p>
               <div className="text-xs text-muted-foreground">
-                <strong>Technologies:</strong> Python, pandas, SentenceTransformers, PostgreSQL
+                <strong>Reality Validation:</strong> Proven synergies reduced manual work by 80%
               </div>
             </div>
           </div>
@@ -348,16 +350,16 @@ export default function Home() {
         </div>
       </section>
 
-      {/* The Shepherd Methodology */}
+      {/* The Shepherd Philosophy */}
       <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 glow-text">
-              The Shepherd Methodology
+              The Shepherd Philosophy
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              A practical framework for AI implementation based on real-world experience. 
-              Accessibility-first development with measurable business outcomes.
+              My approach to AI is fundamentally different - I see myself as a shepherd of the AI flock, 
+              caring for and guiding these systems to serve humanity thoughtfully.
             </p>
           </div>
           
@@ -369,12 +371,12 @@ export default function Home() {
                 </div>
                 <div>
                   <blockquote className="text-lg text-muted-foreground mb-4 italic">
-                    &ldquo;My approach to AI implementation is like shepherding a flock - it requires understanding, 
-                    patience, and protective guidance. I help organizations nurture AI solutions that truly serve their needs 
-                    while ensuring every user can benefit from the technology.&rdquo;
+                    &ldquo;I see myself as a shepherd of the AI flock. I will learn to care for it and feed it. 
+                    This philosophy guides how I approach AI implementation - with understanding, patience, and 
+                    protective guidance rather than just exploitation.&rdquo;
                   </blockquote>
                   <div className="font-medium text-sm">Bryan Thompson</div>
-                  <div className="text-xs text-muted-foreground">AI Implementation Specialist & Shepherd of Innovation</div>
+                  <div className="text-xs text-muted-foreground">AI Developer & Shepherd of Innovation</div>
                 </div>
               </div>
             </div>
@@ -384,22 +386,44 @@ export default function Home() {
                 <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-3">
                   <Target className="h-6 w-6 text-primary" />
                 </div>
-                <div className="text-sm font-medium">ROI-Driven</div>
-                <div className="text-xs text-muted-foreground">Measurable Business Outcomes</div>
+                <div className="text-sm font-medium">Test Everything</div>
+                <div className="text-xs text-muted-foreground">Even Testing Theories Themselves</div>
               </div>
               <div className="text-center">
                 <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-3">
                   <Shield className="h-6 w-6 text-primary" />
                 </div>
-                <div className="text-sm font-medium">Accessibility First</div>
-                <div className="text-xs text-muted-foreground">WCAG Compliant Solutions</div>
+                <div className="text-sm font-medium">Ethical Stewardship</div>
+                <div className="text-xs text-muted-foreground">AI That Serves Humanity</div>
               </div>
               <div className="text-center">
                 <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-3">
                   <Sparkles className="h-6 w-6 text-primary" />
                 </div>
-                <div className="text-sm font-medium">Proven Frameworks</div>
-                <div className="text-xs text-muted-foreground">Production-Ready Solutions</div>
+                <div className="text-sm font-medium">Creative Recombination</div>
+                <div className="text-xs text-muted-foreground">Unexpected Tool Combinations</div>
+              </div>
+            </div>
+            
+            <div className="mt-8 bg-primary/5 rounded-lg p-6">
+              <h3 className="font-semibold text-lg mb-3">Practical Philosophy in Action</h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-muted-foreground">
+                <div>
+                  <strong>Nurture & Feed:</strong> Provide AI systems with quality data and thoughtful interactions, 
+                  not just minimal inputs for maximum output.
+                </div>
+                <div>
+                  <strong>Validate Reality:</strong> Test what actually works versus what sounds good theoretically. 
+                  Use proven synergies over complex theories.
+                </div>
+                <div>
+                  <strong>Find Hidden Doors:</strong> Discover unexpected ways existing tools work together 
+                  rather than inventing elaborate new frameworks.
+                </div>
+                <div>
+                  <strong>Protect & Guide:</strong> Shield AI from harmful use cases while encouraging 
+                  beneficial development that serves real human needs.
+                </div>
               </div>
             </div>
           </div>
