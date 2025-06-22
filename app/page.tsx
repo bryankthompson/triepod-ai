@@ -76,20 +76,20 @@ export default function Home() {
           {/* Technical Capabilities */}
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 max-w-6xl mx-auto mb-12">
             <div className="text-center">
-              <div className="text-4xl font-bold text-primary mb-2">10+</div>
+              <div className="text-4xl font-bold text-primary mb-2">12</div>
               <div className="text-sm text-muted-foreground">Years Technical Experience</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-primary mb-2">3</div>
-              <div className="text-sm text-muted-foreground">Enterprise Companies</div>
+              <div className="text-4xl font-bold text-primary mb-2">6</div>
+              <div className="text-sm text-muted-foreground">Companies Experience</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-primary mb-2">Real</div>
-              <div className="text-sm text-muted-foreground">Business Solutions</div>
+              <div className="text-4xl font-bold text-primary mb-2">15</div>
+              <div className="text-sm text-muted-foreground">Team Members Led</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-primary mb-2">WCAG</div>
-              <div className="text-sm text-muted-foreground">Accessibility Focus</div>
+              <div className="text-4xl font-bold text-primary mb-2">Full</div>
+              <div className="text-sm text-muted-foreground">Stack Development</div>
             </div>
           </div>
         </div>
@@ -197,35 +197,35 @@ export default function Home() {
             <div className="bg-background rounded-lg p-6 shadow-sm border">
               <h3 className="font-semibold text-lg mb-3">Triepod.AI Platform</h3>
               <p className="text-sm text-muted-foreground mb-4">
-                Platform demonstrating creative recombination of AI tools - combining RAG, vector databases, 
-                and multi-LLM orchestration in unexpected ways. Built by &apos;stirring the pot&apos; of existing 
-                technologies to create something genuinely useful.
+                Agentic RAG platform with contract-based plugin system. Combines vector database operations 
+                with multi-LLM integration for business process workflows. Personal project exploring 
+                practical AI tool combinations.
               </p>
               <div className="text-xs text-muted-foreground">
-                <strong>Creative Combination:</strong> OpenAI + Pinecone + Docker workflows = 40% faster integration
+                <strong>Technologies:</strong> Python, OpenAI API, Pinecone, Docker
               </div>
             </div>
             
             <div className="bg-background rounded-lg p-6 shadow-sm border">
               <h3 className="font-semibold text-lg mb-3">VectorCodeLens</h3>
               <p className="text-sm text-muted-foreground mb-4">
-                Found an unexpected &apos;door within the closet&apos; - semantic search + code analysis + 
-                chunking algorithms work together in ways not commonly tried. Simple combination, 
-                powerful emergent behavior.
+                Semantic code analysis platform with abstraction layer for multiple LLM providers. 
+                Handles large codebase search using vector database integration and context-preserving 
+                chunking algorithms.
               </p>
               <div className="text-xs text-muted-foreground">
-                <strong>Hidden Door Discovery:</strong> Vector embeddings + metadata filtering = 40% precision boost
+                <strong>Technologies:</strong> JavaScript, TypeScript, Node.js, Qdrant
               </div>
             </div>
             
             <div className="bg-background rounded-lg p-6 shadow-sm border">
               <h3 className="font-semibold text-lg mb-3">Balancing Act</h3>
               <p className="text-sm text-muted-foreground mb-4">
-                Real-world testing of semantic matching theories. Validated what actually works versus 
-                what sounds good - discovering that simple ML combinations often outperform complex frameworks.
+                Financial data integration system using semantic matching for cross-platform reconciliation. 
+                Work project at Lodestar Technologies applying machine learning to reduce manual data processing.
               </p>
               <div className="text-xs text-muted-foreground">
-                <strong>Reality Validation:</strong> Proven synergies reduced manual work by 80%
+                <strong>Technologies:</strong> Python, pandas, SentenceTransformers, PostgreSQL
               </div>
             </div>
           </div>
@@ -249,20 +249,20 @@ export default function Home() {
               <div className="bg-background rounded-lg p-6 shadow-sm border">
                 <h3 className="font-semibold text-lg mb-4">AI & Machine Learning</h3>
                 <div className="space-y-2 text-sm text-muted-foreground">
-                  <div>• OpenAI API, Claude API integration</div>
+                  <div>• OpenAI API, Claude API, Ollama integration</div>
                   <div>• Vector databases (Qdrant, Pinecone, Chroma)</div>
-                  <div>• Semantic search and RAG implementation</div>
-                  <div>• LLM workflow automation</div>
+                  <div>• LangChain, SentenceTransformers</div>
+                  <div>• RAG implementation and semantic search</div>
                 </div>
               </div>
               
               <div className="bg-background rounded-lg p-6 shadow-sm border">
                 <h3 className="font-semibold text-lg mb-4">Development & Infrastructure</h3>
                 <div className="space-y-2 text-sm text-muted-foreground">
-                  <div>• Python, JavaScript, TypeScript, SQL</div>
-                  <div>• PostgreSQL, MongoDB database management</div>
-                  <div>• Docker, cloud platform deployment</div>
-                  <div>• REST API development and integration</div>
+                  <div>• Python, JavaScript, TypeScript, SQL, HTML/CSS</div>
+                  <div>• Node.js, React, Express.js frameworks</div>
+                  <div>• PostgreSQL, MS SQL Server, MongoDB</div>
+                  <div>• AWS, Google Cloud, Docker, Kubernetes</div>
                 </div>
               </div>
             </div>
@@ -296,12 +296,12 @@ export default function Home() {
             <div className="space-y-6">
               <div className="bg-background rounded-lg p-6 shadow-sm border">
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-3">
-                  <h3 className="font-semibold text-lg">Business Analyst - AI/ML Focus</h3>
+                  <h3 className="font-semibold text-lg">Business Analyst</h3>
                   <div className="text-sm text-muted-foreground">Lodestar Technologies, 2024-Present</div>
                 </div>
                 <p className="text-sm text-muted-foreground mb-2">
-                  Developing Python-based financial data integration platform with semantic matching algorithms. 
-                  Building AI automation tools that reduce manual reconciliation work for enterprise clients.
+                  Python-based financial data integration platform with semantic matching algorithms. 
+                  Multi-phase validation architecture for data integrity across merged systems.
                 </p>
                 <div className="text-xs text-muted-foreground">
                   Technologies: Python, Machine Learning, Financial Data Processing
@@ -310,39 +310,67 @@ export default function Home() {
               
               <div className="bg-background rounded-lg p-6 shadow-sm border">
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-3">
-                  <h3 className="font-semibold text-lg">Business Intelligence Analyst</h3>
-                  <div className="text-sm text-muted-foreground">PayPal (2023-2024), Fiserv (2019-2023)</div>
+                  <h3 className="font-semibold text-lg">Business Intelligence Analyst 3</h3>
+                  <div className="text-sm text-muted-foreground">PayPal, 2023-2024</div>
                 </div>
                 <p className="text-sm text-muted-foreground mb-2">
-                  Worked on data transformation and automation frameworks for financial platforms. 
-                  Experience with SAP integration, process automation, and technical documentation systems.
+                  Data transformation architecture for SAP Bank Analyzer integration. 
+                  Automated validation framework and cross-environment monitoring systems.
                 </p>
                 <div className="text-xs text-muted-foreground">
-                  Focus: Data Analysis, Process Automation, Enterprise Systems
+                  Focus: SAP Integration, Process Automation, Validation Systems
                 </div>
               </div>
               
               <div className="bg-background rounded-lg p-6 shadow-sm border">
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-3">
-                  <h3 className="font-semibold text-lg">Technical Systems & Development</h3>
-                  <div className="text-sm text-muted-foreground">2012-2019</div>
+                  <h3 className="font-semibold text-lg">Application Support Engineer</h3>
+                  <div className="text-sm text-muted-foreground">Fiserv, 2019-2023</div>
                 </div>
                 <p className="text-sm text-muted-foreground mb-2">
-                  Foundation in database administration, software support, and technical infrastructure. 
-                  Built problem-solving skills and understanding of business technology needs.
+                  Automation framework for core banking processes. SQL query generation systems 
+                  and job scheduling with dependency management.
                 </p>
                 <div className="text-xs text-muted-foreground">
-                  Focus: Database Management, Technical Support, Infrastructure
+                  Focus: Banking Systems, SQL Development, Job Scheduling
+                </div>
+              </div>
+              
+              <div className="bg-background rounded-lg p-6 shadow-sm border">
+                <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-3">
+                  <h3 className="font-semibold text-lg">Lead Technical Analyst</h3>
+                  <div className="text-sm text-muted-foreground">Elior North America, 2016-2019</div>
+                </div>
+                <p className="text-sm text-muted-foreground mb-2">
+                  Enterprise hardware deployment solutions and infrastructure automation. 
+                  Led technical team of 15 implementing standardized development methodologies.
+                </p>
+                <div className="text-xs text-muted-foreground">
+                  Focus: Team Leadership, Infrastructure, Development Standards
+                </div>
+              </div>
+              
+              <div className="bg-background rounded-lg p-6 shadow-sm border">
+                <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-3">
+                  <h3 className="font-semibold text-lg">Earlier Technical Roles</h3>
+                  <div className="text-sm text-muted-foreground">2012-2016</div>
+                </div>
+                <p className="text-sm text-muted-foreground mb-2">
+                  Software Support Engineer at BadgePass and Database Administrator at The Computer Guys. 
+                  Foundation in SQL server environments, healthcare applications, and technical support.
+                </p>
+                <div className="text-xs text-muted-foreground">
+                  Focus: Database Administration, Healthcare Systems, Technical Support
                 </div>
               </div>
             </div>
             
             <div className="mt-8 text-center">
               <div className="bg-secondary/10 rounded-lg p-6 max-w-2xl mx-auto">
-                <h4 className="font-semibold text-lg mb-2">Continuous Learning Approach</h4>
+                <h4 className="font-semibold text-lg mb-2">Self-Taught Software Architect</h4>
                 <p className="text-sm text-muted-foreground">
-                  Self-taught progression into AI and machine learning, staying current with 
-                  emerging technologies while maintaining focus on practical business applications.
+                  Self-taught progression from database administration to full-stack development 
+                  and AI implementation, with focus on practical business applications.
                 </p>
               </div>
             </div>
