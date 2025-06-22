@@ -15,21 +15,15 @@ import { docucrewAiDocumentationGenerator } from './docucrew-ai-documentation-ge
 import { smartmatchResumeAdvisor } from './smartmatch-resume-advisor';
 import { appwriteAiAssistant } from './appwrite-ai-assistant';
 import { n8nWorkflowGeneratorMcp } from './n8n-workflow-generator-mcp';
-import { aiDrivenFarmAutomation } from './ai-driven-farm-automation';
-import { catfishProfitabilityAI } from './catfish-profitability-ai';
 import { healthcareAIRural } from './healthcare-ai-rural';
 import { energyGridOptimization } from './energy-grid-optimization';
 import { defenseCybersecurityAI } from './defense-cybersecurity-ai';
 
 // Export individual projects
-export { disabilityRightsAI, directoryTreeAI, aiResearchEngine, triepodKnowledgeBase, claudeCliMcp, vectorCodeLens, mergerBalanceAutomation, triepodEncoderRing, cyberpunkChat, stellarTrielink, ollamaMcpWrapper, memorySystemMcp, docucrewAiDocumentationGenerator, smartmatchResumeAdvisor, appwriteAiAssistant, n8nWorkflowGeneratorMcp, aiDrivenFarmAutomation, catfishProfitabilityAI, healthcareAIRural, energyGridOptimization, defenseCybersecurityAI };
+export { disabilityRightsAI, directoryTreeAI, aiResearchEngine, triepodKnowledgeBase, claudeCliMcp, vectorCodeLens, mergerBalanceAutomation, triepodEncoderRing, cyberpunkChat, stellarTrielink, ollamaMcpWrapper, memorySystemMcp, docucrewAiDocumentationGenerator, smartmatchResumeAdvisor, appwriteAiAssistant, n8nWorkflowGeneratorMcp, healthcareAIRural, energyGridOptimization, defenseCybersecurityAI };
 
 // Export all projects as an array
 export const allProjects: Project[] = [
-  // Featured Research Projects
-  aiDrivenFarmAutomation,
-  catfishProfitabilityAI,
-  
   // Featured Professional Projects
   n8nWorkflowGeneratorMcp,
   appwriteAiAssistant,

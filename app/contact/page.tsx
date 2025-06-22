@@ -1,4 +1,5 @@
 import { ConsultationCTA } from '@/components/consultation-cta';
+import { ContactForm } from '@/components/contact-form';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -18,11 +19,13 @@ export default function ContactPage() {
       <h1 className="text-4xl font-bold mb-8">Schedule Your AI Consultation</h1>
       
       <div className="space-y-8">
+        <ContactForm />
+
         <section className="bg-card rounded-lg p-6 shadow-sm">
-          <h2 className="text-2xl font-semibold mb-4">Ready to Transform Your Business?</h2>
+          <h2 className="text-2xl font-semibold mb-4">Direct Contact Options</h2>
           <p className="text-muted-foreground mb-6">
-            Let&apos;s discuss how AI can drive growth, efficiency, and competitive advantage for your organization. 
-            I&apos;m here to help you navigate the AI revolution and position your business for success.
+            Prefer to reach out directly? I&apos;m available through multiple channels for 
+            AI consultation and strategic partnership discussions.
           </p>
           <div className="grid gap-6 md:grid-cols-2">
             <div>
