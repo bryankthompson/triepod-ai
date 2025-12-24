@@ -1,27 +1,42 @@
-# triepod.ai Website
+# Triepod AI - Open Source Contributions
 
-**This repository has been moved to the unified monorepo.**
+## Quick Stats (Verified Dec 2025)
 
-## 🔗 New Location
+| Metric | Count |
+|--------|-------|
+| **Pull Requests Submitted** | 63+ |
+| **Repositories Improved** | 12+ |
+| **Focus Area** | MCP Tool Annotations |
 
-This project is now part of the **Triepod Unified** monorepo:
-👉 **[github.com/triepod-ai/triepod-unified](https://github.com/triepod-ai/triepod-unified)**
+## Verification Links
 
-### Repository Structure
-- **Website**: `triepod-unified/website/` (this project)
-- **Claude Analyzer**: `triepod-unified/claude-analyzer/`
-- **Documentation**: `triepod-unified/docs/`
+**All PRs**: [View on GitHub](https://github.com/search?q=author:triepod-ai+is:pr)
 
-## 🚀 Development
+**Merged PRs**: [View on GitHub](https://github.com/search?q=author:triepod-ai+is:pr+is:merged)
 
-For development instructions, please see:
-- [Triepod Unified README](https://github.com/triepod-ai/triepod-unified#readme)
-- [Development Scripts](https://github.com/triepod-ai/triepod-unified/tree/main/scripts)
+## MCP Tool Annotation Initiative
 
-## 📝 Project Status
+Contributing tool annotations (`readOnlyHint`, `destructiveHint`, `title`) to MCP servers for improved LLM tool understanding and safety.
 
-This repository will remain for historical purposes and Vercel deployment, but active development happens in the monorepo.
+### Featured Contributions
+
+| Repository | PR | Description |
+|------------|-----|-------------|
+| **github-mcp-server** | [#1665](https://github.com/github/github-mcp-server/pull/1665) | DestructiveHint for delete operations |
+| **telegram-mcp** | [#40](https://github.com/chigwell/telegram-mcp/pull/40) | Title annotations for 78 tools |
+| **slack-mcp-server** | [#144](https://github.com/korotovsky/slack-mcp-server/pull/144) | Complete tool annotation coverage |
+| **excel-mcp-server** | [#110](https://github.com/haris-musa/excel-mcp-server/pull/110) | LLM tool understanding improvements |
+| **k8m** | [#391](https://github.com/weibaohui/k8m/pull/391) | Kubernetes MCP annotations |
+
+[View all contributions](https://github.com/search?q=author:triepod-ai+is:pr)
+
+## Contribution Philosophy
+
+- Strategic, high-impact contributions
+- Focus on ecosystem-wide improvements
+- Quality documentation and testing
+- Alignment with platform best practices
 
 ---
 
-**triepod.ai** - Advanced AI Research & Consulting Solutions
+*Stats auto-verifiable via GitHub search links above*
