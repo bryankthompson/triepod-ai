@@ -7,10 +7,10 @@ Systematic campaign to improve MCP ecosystem safety through tool annotations.
 
 | Metric | Value |
 |--------|-------|
-| **PRs Created** | 93 |
-| **Merged** | 20 (21.5%) |
-| **Repositories** | 107 distinct MCP servers |
-| **Tools Annotated** | 1,887 |
+| **PRs Created** | 113 |
+| **External Contributions** | 104 PRs to 99 repos |
+| **Merged** | 29 total (20 external) |
+| **Tools Annotated** | 1,887+ |
 | **Annotations** | `readOnlyHint`, `destructiveHint`, `idempotentHint`, `title` |
 
 **Why it matters:** Tool annotations help LLMs make safer, more informed decisions about tool usage. Read-only tools can be auto-approved, destructive tools trigger confirmation prompts.
@@ -27,10 +27,10 @@ Systematic campaign to improve MCP ecosystem safety through tool annotations.
 | [awslabs/mcp](https://github.com/awslabs/mcp) | 72 | Open |
 | [brightdata-mcp](https://github.com/brightdata/brightdata-mcp) | 63 | Open |
 | [kom](https://github.com/weibaohui/kom) | 60 | Merged |
-| [notion-mcp-server](https://github.com/makenotion/notion-mcp-server) | 19 | Merged |
 | [mcp-server-chart](https://github.com/antvis/mcp-server-chart) | 26 | Merged |
+| [notion-mcp-server](https://github.com/makenotion/notion-mcp-server) | 19 | Merged |
 
-### Merged PRs (20)
+### Merged External PRs (20)
 
 `github/github-mcp-server` `notion-mcp-server` `excel-mcp-server` `slack-mcp-server` `kom` `k8m` `telegram-mcp` `youtube-transcript` `intlayer` `tfmcp` `1mcp-app/agent` `beelzebub` `xiaohongshu-mcp` `mcp-server-chart` `shadcn-ui-mcp-server` `jupyter-mcp-server` `mcpproxy-go` `XcodeBuildMCP` `toolhive` `mcp-server-kubernetes`
 
