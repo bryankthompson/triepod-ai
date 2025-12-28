@@ -1,7 +1,7 @@
 # Bryan Thompson
 **MCP Infrastructure Engineer | AI Tooling Specialist**
 
-## MCP Tool Annotation Initiative (Dec 2024)
+## MCP Tool Annotation Initiative (Dec 2025)
 
 Systematic campaign to improve MCP ecosystem safety through tool annotations.
 
