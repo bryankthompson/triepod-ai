@@ -3,11 +3,11 @@
 
 ## MCP Tool Annotation Initiative (Dec 2025)
 
-Systematic campaign to improve MCP ecosystem safety by adding tool annotations across 35 open source projects.
+Systematic campaign to improve MCP ecosystem safety by adding tool annotations across 47 open source projects.
 
 | Metric | Value |
 |--------|-------|
-| **PRs Merged** | 35 external repositories |
+| **PRs Merged** | 47 external repositories |
 | **Combined Reach** | 134,700+ stars |
 | **Tools Annotated** | 2,100+ |
 | **Impact** | Safer LLM tool execution across the ecosystem |
@@ -38,7 +38,7 @@ Tool annotations (`readOnlyHint`, `destructiveHint`) help LLMs distinguish safe 
 | [cameroncooke/XcodeBuildMCP](https://github.com/cameroncooke/XcodeBuildMCP) | 3,175 ⭐ | [#152](https://github.com/cameroncooke/XcodeBuildMCP/pull/152) |
 | [haris-musa/excel-mcp-server](https://github.com/haris-musa/excel-mcp-server) | 3,029 ⭐ | [#110](https://github.com/haris-musa/excel-mcp-server/pull/110) |
 
-[View all 35 merged PRs →](https://github.com/search?q=author%3Atriepod-ai+is%3Apr+is%3Amerged)
+[View all 47 merged PRs →](https://github.com/search?q=author%3Atriepod-ai+is%3Apr+is%3Amerged)
 
 ---
 
