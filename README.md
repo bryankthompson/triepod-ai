@@ -3,11 +3,11 @@
 
 ## MCP Tool Annotation Initiative (Dec 2025 - Jan 2026)
 
-Systematic campaign to improve MCP ecosystem safety by adding tool annotations across 52 open source projects.
+Systematic campaign to improve MCP ecosystem safety by adding tool annotations across 54 open source projects.
 
 | Metric | Value |
 |--------|-------|
-| **PRs Merged** | 52 external repositories |
+| **PRs Merged** | 54 external repositories |
 | **Combined Reach** | 215,000+ stars |
 | **Tools Annotated** | 1,900+ |
 | **Impact** | Safer LLM tool execution across the ecosystem |
@@ -39,7 +39,7 @@ Tool annotations (`readOnlyHint`, `destructiveHint`) help LLMs distinguish safe 
 | [CoplayDev/unity-mcp](https://github.com/CoplayDev/unity-mcp) | 4,610 ⭐ | [#480](https://github.com/CoplayDev/unity-mcp/pull/480) |
 | [u14app/deep-research](https://github.com/u14app/deep-research) | 4,301 ⭐ | [#149](https://github.com/u14app/deep-research/pull/149) |
 
-[View all 52 merged PRs →](https://github.com/search?q=author%3Atriepod-ai+is%3Apr+is%3Amerged+-repo%3Atriepod-ai%2F)
+[View all 54 merged PRs →](https://github.com/search?q=author%3Atriepod-ai+is%3Apr+is%3Amerged+-repo%3Atriepod-ai%2F)
 
 ---
 
