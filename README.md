@@ -3,12 +3,12 @@
 
 ## MCP Tool Annotation Initiative (Dec 2025 - Jan 2026)
 
-Systematic campaign to improve MCP ecosystem safety by adding tool annotations across 50 open source projects.
+Systematic campaign to improve MCP ecosystem safety by adding tool annotations across 52 open source projects.
 
 | Metric | Value |
 |--------|-------|
-| **PRs Merged** | 50 external repositories |
-| **Combined Reach** | 205,000+ stars |
+| **PRs Merged** | 52 external repositories |
+| **Combined Reach** | 211,000+ stars |
 | **Tools Annotated** | 1,900+ |
 | **Impact** | Safer LLM tool execution across the ecosystem |
 
@@ -39,7 +39,7 @@ Tool annotations (`readOnlyHint`, `destructiveHint`) help LLMs distinguish safe 
 | [sooperset/mcp-atlassian](https://github.com/sooperset/mcp-atlassian) | 3,878 ⭐ | [#789](https://github.com/sooperset/mcp-atlassian/pull/789) |
 | [antvis/mcp-server-chart](https://github.com/antvis/mcp-server-chart) | 3,427 ⭐ | [#249](https://github.com/antvis/mcp-server-chart/pull/249) |
 
-[View all 50 merged PRs →](https://github.com/search?q=author%3Atriepod-ai+is%3Apr+is%3Amerged+-repo%3Atriepod-ai%2F)
+[View all 52 merged PRs →](https://github.com/search?q=author%3Atriepod-ai+is%3Apr+is%3Amerged+-repo%3Atriepod-ai%2F)
 
 ---
 
