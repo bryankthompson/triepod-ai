@@ -3,11 +3,11 @@
 
 ## MCP Tool Annotation Initiative (Dec 2025 - Jan 2026)
 
-Systematic campaign to improve MCP ecosystem safety by adding tool annotations across 54 open source projects.
+Systematic campaign to improve MCP ecosystem safety by adding tool annotations across 58 open source projects.
 
 | Metric | Value |
 |--------|-------|
-| **PRs Merged** | 54 external repositories |
+| **PRs Merged** | 58 external repositories |
 | **Combined Reach** | 215,000+ stars |
 | **Tools Annotated** | 1,900+ |
 | **Impact** | Safer LLM tool execution across the ecosystem |
@@ -26,6 +26,7 @@ Tool annotations (`readOnlyHint`, `destructiveHint`) help LLMs distinguish safe 
 | **Razorpay** | [razorpay-mcp-server](https://github.com/razorpay/razorpay-mcp-server) | [#73](https://github.com/razorpay/razorpay-mcp-server/pull/73) |
 | **Apify** | [apify-mcp-server](https://github.com/apify/apify-mcp-server) | [#380](https://github.com/apify/apify-mcp-server/pull/380) |
 | **ElevenLabs** | [elevenlabs-mcp](https://github.com/elevenlabs/elevenlabs-mcp) | [#87](https://github.com/elevenlabs/elevenlabs-mcp/pull/87) |
+| **Grafana** | [mcp-grafana](https://github.com/grafana/mcp-grafana) | [#446](https://github.com/grafana/mcp-grafana/pull/446) |
 
 ### High-Impact Community Contributions
 
@@ -40,8 +41,9 @@ Tool annotations (`readOnlyHint`, `destructiveHint`) help LLMs distinguish safe 
 | [ThinkInAIXYZ/deepchat](https://github.com/ThinkInAIXYZ/deepchat) | 5,314 ⭐ | [#1242](https://github.com/ThinkInAIXYZ/deepchat/pull/1242) |
 | [CoplayDev/unity-mcp](https://github.com/CoplayDev/unity-mcp) | 4,610 ⭐ | [#480](https://github.com/CoplayDev/unity-mcp/pull/480) |
 | [u14app/deep-research](https://github.com/u14app/deep-research) | 4,301 ⭐ | [#149](https://github.com/u14app/deep-research/pull/149) |
+| [kreuzberg-dev/kreuzberg](https://github.com/kreuzberg-dev/kreuzberg) | 3,238 ⭐ | [#261](https://github.com/kreuzberg-dev/kreuzberg/pull/261) |
 
-[View all 54 merged PRs →](https://github.com/search?q=author%3Atriepod-ai+is%3Apr+is%3Amerged+-repo%3Atriepod-ai%2F)
+[View all 58 merged PRs →](https://github.com/search?q=author%3Atriepod-ai+is%3Apr+is%3Amerged+-repo%3Atriepod-ai%2F)
 
 ---
 
