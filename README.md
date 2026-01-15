@@ -8,7 +8,7 @@ Systematic campaign to improve MCP ecosystem safety by adding tool annotations a
 | Metric | Value |
 |--------|-------|
 | **PRs Merged** | 59 external repositories |
-| **Combined Reach** | 210,000+ stars |
+| **Combined Reach** | 245,000+ stars |
 | **Tools Annotated** | 1,900+ |
 | **Impact** | Safer LLM tool execution across the ecosystem |
 
@@ -28,6 +28,7 @@ Tool annotations (`readOnlyHint`, `destructiveHint`) help LLMs distinguish safe 
 | **Apify** | [apify-mcp-server](https://github.com/apify/apify-mcp-server) | [#380](https://github.com/apify/apify-mcp-server/pull/380) |
 | **ElevenLabs** | [elevenlabs-mcp](https://github.com/elevenlabs/elevenlabs-mcp) | [#87](https://github.com/elevenlabs/elevenlabs-mcp/pull/87) |
 | **Grafana** | [mcp-grafana](https://github.com/grafana/mcp-grafana) | [#446](https://github.com/grafana/mcp-grafana/pull/446) |
+| **Bright Data** | [brightdata-mcp](https://github.com/brightdata/brightdata-mcp) (1.9k ⭐) | [#97](https://github.com/brightdata/brightdata-mcp/pull/97) |
 
 ### High-Impact Community Contributions
 
