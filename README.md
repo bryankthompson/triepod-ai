@@ -9,7 +9,7 @@ Systematic campaign to improve MCP ecosystem safety by adding tool annotations a
 |--------|-------|
 | **PRs Merged** | 59 external repositories |
 | **Combined Reach** | 245,000+ stars |
-| **Tools Annotated** | 1,900+ |
+| **Tools Annotated** | 1,300+ |
 | **Impact** | Safer LLM tool execution across the ecosystem |
 
 Tool annotations (`readOnlyHint`, `destructiveHint`) help LLMs distinguish safe operations from destructive ones, enabling auto-approval for queries while prompting confirmation for writes.
