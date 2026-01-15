@@ -18,7 +18,7 @@ Tool annotations (`readOnlyHint`, `destructiveHint`) help LLMs distinguish safe 
 
 | Organization | Repository | PR |
 |--------------|------------|:--:|
-| **GitHub** | [github-mcp-server](https://github.com/github/github-mcp-server) (25.7k ⭐) | [#1665](https://github.com/github/github-mcp-server/pull/1665) |
+| **GitHub** | [github-mcp-server](https://github.com/github/github-mcp-server) (25.9k ⭐) | [#1665](https://github.com/github/github-mcp-server/pull/1665) |
 | **Azure** | [mcp-kubernetes](https://github.com/Azure/mcp-kubernetes) | [#98](https://github.com/Azure/mcp-kubernetes/pull/98) |
 | **Azure** | [aks-mcp](https://github.com/Azure/aks-mcp) | [#279](https://github.com/Azure/aks-mcp/pull/279) |
 | **IBM** | [mcp-context-forge](https://github.com/IBM/mcp-context-forge) (3.1k ⭐) | [#1779](https://github.com/IBM/mcp-context-forge/pull/1779) |
@@ -32,16 +32,16 @@ Tool annotations (`readOnlyHint`, `destructiveHint`) help LLMs distinguish safe 
 
 | Repository | Stars | PR |
 |------------|------:|:--:|
-| [upstash/context7](https://github.com/upstash/context7) | 40,990 ⭐ | [#1282](https://github.com/upstash/context7/pull/1282) |
-| [eyaltoledano/claude-task-master](https://github.com/eyaltoledano/claude-task-master) | 24,644 ⭐ | [#1543](https://github.com/eyaltoledano/claude-task-master/pull/1543) |
-| [jlowin/fastmcp](https://github.com/jlowin/fastmcp) | 21,732 ⭐ | [#2777](https://github.com/jlowin/fastmcp/pull/2777) |
-| [oraios/serena](https://github.com/oraios/serena) | 18,149 ⭐ | [#862](https://github.com/oraios/serena/pull/862) |
-| [czlonkowski/n8n-mcp](https://github.com/czlonkowski/n8n-mcp) | 11,383 ⭐ | [#512](https://github.com/czlonkowski/n8n-mcp/pull/512) |
-| [xpzouying/xiaohongshu-mcp](https://github.com/xpzouying/xiaohongshu-mcp) | 7,874 ⭐ | [#347](https://github.com/xpzouying/xiaohongshu-mcp/pull/347) |
-| [ThinkInAIXYZ/deepchat](https://github.com/ThinkInAIXYZ/deepchat) | 5,314 ⭐ | [#1242](https://github.com/ThinkInAIXYZ/deepchat/pull/1242) |
-| [CoplayDev/unity-mcp](https://github.com/CoplayDev/unity-mcp) | 4,610 ⭐ | [#480](https://github.com/CoplayDev/unity-mcp/pull/480) |
-| [u14app/deep-research](https://github.com/u14app/deep-research) | 4,301 ⭐ | [#149](https://github.com/u14app/deep-research/pull/149) |
-| [kreuzberg-dev/kreuzberg](https://github.com/kreuzberg-dev/kreuzberg) | 3,238 ⭐ | [#261](https://github.com/kreuzberg-dev/kreuzberg/pull/261) |
+| [upstash/context7](https://github.com/upstash/context7) | 42,055 ⭐ | [#1282](https://github.com/upstash/context7/pull/1282) |
+| [eyaltoledano/claude-task-master](https://github.com/eyaltoledano/claude-task-master) | 24,833 ⭐ | [#1543](https://github.com/eyaltoledano/claude-task-master/pull/1543) |
+| [jlowin/fastmcp](https://github.com/jlowin/fastmcp) | 21,982 ⭐ | [#2777](https://github.com/jlowin/fastmcp/pull/2777) |
+| [oraios/serena](https://github.com/oraios/serena) | 18,681 ⭐ | [#862](https://github.com/oraios/serena/pull/862) |
+| [czlonkowski/n8n-mcp](https://github.com/czlonkowski/n8n-mcp) | 11,704 ⭐ | [#512](https://github.com/czlonkowski/n8n-mcp/pull/512) |
+| [xpzouying/xiaohongshu-mcp](https://github.com/xpzouying/xiaohongshu-mcp) | 8,074 ⭐ | [#347](https://github.com/xpzouying/xiaohongshu-mcp/pull/347) |
+| [Klavis-AI/klavis](https://github.com/Klavis-AI/klavis) | 5,590 ⭐ | [#850](https://github.com/Klavis-AI/klavis/pull/850) |
+| [ThinkInAIXYZ/deepchat](https://github.com/ThinkInAIXYZ/deepchat) | 5,354 ⭐ | [#1242](https://github.com/ThinkInAIXYZ/deepchat/pull/1242) |
+| [kreuzberg-dev/kreuzberg](https://github.com/kreuzberg-dev/kreuzberg) | 5,344 ⭐ | [#261](https://github.com/kreuzberg-dev/kreuzberg/pull/261) |
+| [CoplayDev/unity-mcp](https://github.com/CoplayDev/unity-mcp) | 4,854 ⭐ | [#480](https://github.com/CoplayDev/unity-mcp/pull/480) |
 
 [View all 59 merged PRs →](https://github.com/search?q=author%3Atriepod-ai+is%3Apr+is%3Amerged+-repo%3Atriepod-ai%2F)
 
