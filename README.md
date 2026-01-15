@@ -8,7 +8,7 @@ Systematic campaign to improve MCP ecosystem safety by adding tool annotations a
 | Metric | Value |
 |--------|-------|
 | **PRs Merged** | 59 external repositories |
-| **Combined Reach** | 215,000+ stars |
+| **Combined Reach** | 210,000+ stars |
 | **Tools Annotated** | 1,900+ |
 | **Impact** | Safer LLM tool execution across the ecosystem |
 
@@ -19,6 +19,7 @@ Tool annotations (`readOnlyHint`, `destructiveHint`) help LLMs distinguish safe 
 | Organization | Repository | PR |
 |--------------|------------|:--:|
 | **GitHub** | [github-mcp-server](https://github.com/github/github-mcp-server) (25.9k ⭐) | [#1665](https://github.com/github/github-mcp-server/pull/1665) |
+| **Google** | [genai-toolbox](https://github.com/googleapis/genai-toolbox) (12.4k ⭐) | [#2219](https://github.com/googleapis/genai-toolbox/pull/2219) |
 | **Azure** | [mcp-kubernetes](https://github.com/Azure/mcp-kubernetes) | [#98](https://github.com/Azure/mcp-kubernetes/pull/98) |
 | **Azure** | [aks-mcp](https://github.com/Azure/aks-mcp) | [#279](https://github.com/Azure/aks-mcp/pull/279) |
 | **IBM** | [mcp-context-forge](https://github.com/IBM/mcp-context-forge) (3.1k ⭐) | [#1779](https://github.com/IBM/mcp-context-forge/pull/1779) |
