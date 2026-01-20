@@ -13,12 +13,12 @@ If you've built an MCP server and want it hosted on the **Anthropic MCP Director
 
 ## MCP Tool Annotation Initiative (Dec 2025 - Jan 2026)
 
-Systematic campaign to improve MCP ecosystem safety by adding tool annotations across 59 open source projects.
+Systematic campaign to improve MCP ecosystem safety by adding tool annotations across 63 open source projects.
 
 | Metric | Value |
 |--------|-------|
-| **PRs Merged** | 59 external repositories |
-| **Combined Reach** | 245,000+ stars |
+| **PRs Merged** | 63 external repositories |
+| **Combined Reach** | 254,000+ stars |
 | **Tools Annotated** | 1,300+ |
 | **Impact** | Safer LLM tool execution across the ecosystem |
 
@@ -28,8 +28,8 @@ Tool annotations (`readOnlyHint`, `destructiveHint`) help LLMs distinguish safe 
 
 | Organization | Repository | PR |
 |--------------|------------|:--:|
-| **GitHub** | [github-mcp-server](https://github.com/github/github-mcp-server) (25.9k ⭐) | [#1665](https://github.com/github/github-mcp-server/pull/1665) |
-| **Google** | [genai-toolbox](https://github.com/googleapis/genai-toolbox) (12.4k ⭐) | [#2219](https://github.com/googleapis/genai-toolbox/pull/2219) |
+| **GitHub** | [github-mcp-server](https://github.com/github/github-mcp-server) (26.1k ⭐) | [#1665](https://github.com/github/github-mcp-server/pull/1665) |
+| **Google** | [genai-toolbox](https://github.com/googleapis/genai-toolbox) (12.5k ⭐) | [#2219](https://github.com/googleapis/genai-toolbox/pull/2219) |
 | **Azure** | [mcp-kubernetes](https://github.com/Azure/mcp-kubernetes) | [#98](https://github.com/Azure/mcp-kubernetes/pull/98) |
 | **Azure** | [aks-mcp](https://github.com/Azure/aks-mcp) | [#279](https://github.com/Azure/aks-mcp/pull/279) |
 | **IBM** | [mcp-context-forge](https://github.com/IBM/mcp-context-forge) (3.1k ⭐) | [#1779](https://github.com/IBM/mcp-context-forge/pull/1779) |
@@ -44,18 +44,18 @@ Tool annotations (`readOnlyHint`, `destructiveHint`) help LLMs distinguish safe 
 
 | Repository | Stars | PR |
 |------------|------:|:--:|
-| [upstash/context7](https://github.com/upstash/context7) | 42,055 ⭐ | [#1282](https://github.com/upstash/context7/pull/1282) |
-| [eyaltoledano/claude-task-master](https://github.com/eyaltoledano/claude-task-master) | 24,833 ⭐ | [#1543](https://github.com/eyaltoledano/claude-task-master/pull/1543) |
-| [jlowin/fastmcp](https://github.com/jlowin/fastmcp) | 21,982 ⭐ | [#2777](https://github.com/jlowin/fastmcp/pull/2777) |
-| [oraios/serena](https://github.com/oraios/serena) | 18,681 ⭐ | [#862](https://github.com/oraios/serena/pull/862) |
-| [czlonkowski/n8n-mcp](https://github.com/czlonkowski/n8n-mcp) | 11,704 ⭐ | [#512](https://github.com/czlonkowski/n8n-mcp/pull/512) |
-| [xpzouying/xiaohongshu-mcp](https://github.com/xpzouying/xiaohongshu-mcp) | 8,074 ⭐ | [#347](https://github.com/xpzouying/xiaohongshu-mcp/pull/347) |
-| [Klavis-AI/klavis](https://github.com/Klavis-AI/klavis) | 5,590 ⭐ | [#850](https://github.com/Klavis-AI/klavis/pull/850) |
-| [ThinkInAIXYZ/deepchat](https://github.com/ThinkInAIXYZ/deepchat) | 5,354 ⭐ | [#1242](https://github.com/ThinkInAIXYZ/deepchat/pull/1242) |
-| [kreuzberg-dev/kreuzberg](https://github.com/kreuzberg-dev/kreuzberg) | 5,344 ⭐ | [#261](https://github.com/kreuzberg-dev/kreuzberg/pull/261) |
-| [CoplayDev/unity-mcp](https://github.com/CoplayDev/unity-mcp) | 4,854 ⭐ | [#480](https://github.com/CoplayDev/unity-mcp/pull/480) |
+| [upstash/context7](https://github.com/upstash/context7) | 42,675 ⭐ | [#1282](https://github.com/upstash/context7/pull/1282) |
+| [eyaltoledano/claude-task-master](https://github.com/eyaltoledano/claude-task-master) | 24,937 ⭐ | [#1543](https://github.com/eyaltoledano/claude-task-master/pull/1543) |
+| [jlowin/fastmcp](https://github.com/jlowin/fastmcp) | 22,116 ⭐ | [#2777](https://github.com/jlowin/fastmcp/pull/2777) |
+| [oraios/serena](https://github.com/oraios/serena) | 18,904 ⭐ | [#862](https://github.com/oraios/serena/pull/862) |
+| [czlonkowski/n8n-mcp](https://github.com/czlonkowski/n8n-mcp) | 12,387 ⭐ | [#512](https://github.com/czlonkowski/n8n-mcp/pull/512) |
+| [xpzouying/xiaohongshu-mcp](https://github.com/xpzouying/xiaohongshu-mcp) | 8,175 ⭐ | [#347](https://github.com/xpzouying/xiaohongshu-mcp/pull/347) |
+| [Klavis-AI/klavis](https://github.com/Klavis-AI/klavis) | 5,600 ⭐ | [#850](https://github.com/Klavis-AI/klavis/pull/850) |
+| [kreuzberg-dev/kreuzberg](https://github.com/kreuzberg-dev/kreuzberg) | 5,429 ⭐ | [#261](https://github.com/kreuzberg-dev/kreuzberg/pull/261) |
+| [ThinkInAIXYZ/deepchat](https://github.com/ThinkInAIXYZ/deepchat) | 5,370 ⭐ | [#1242](https://github.com/ThinkInAIXYZ/deepchat/pull/1242) |
+| [CoplayDev/unity-mcp](https://github.com/CoplayDev/unity-mcp) | 5,127 ⭐ | [#480](https://github.com/CoplayDev/unity-mcp/pull/480) |
 
-[View all 59 merged PRs →](https://github.com/search?q=author%3Atriepod-ai+is%3Apr+is%3Amerged+-repo%3Atriepod-ai%2F)
+[View all 63 merged PRs →](https://github.com/search?q=author%3Atriepod-ai+is%3Apr+is%3Amerged+-repo%3Atriepod-ai%2F)
 
 ---
 
